@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/remote-home/qhgao/Workspace/Projects/MainUniverse/artworks/flash-attention-modify/src/flash_blocksparse_attn_interface_test.py", line 568, in <module>
+    test_blocksparse_dense_match(seqlen, sparsity_config)
+  File "/remote-home/qhgao/Workspace/Projects/MainUniverse/artworks/flash-attention-modify/src/flash_blocksparse_attn_interface_test.py", line 346, in test_blocksparse_dense_match
+    causal_masking = torch.full_like(dense_logits, -10000).to(dtype=torch.float16).triu(1)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 32.00 GiB (GPU 1; 79.32 GiB total capacity; 64.27 GiB already allocated; 5.94 GiB free; 72.18 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+[OutOfMemoryError] CUDA out of memory. Tried to allocate 32.00 GiB (GPU 1; 79.32 GiB total capacity; 64.27 GiB already allocated; 5.94 GiB free; 72.18 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

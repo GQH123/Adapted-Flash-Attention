@@ -1,0 +1,236 @@
+0,1,2,3,4,5,MOSS-7B-A800-FlashAttnSparse-0-LocalSlide11-Full_correct,MOSS-7B-A800-FlashAttnSparse-0-LocalSlide11-Full_choiceA_probs,MOSS-7B-A800-FlashAttnSparse-0-LocalSlide11-Full_choiceB_probs,MOSS-7B-A800-FlashAttnSparse-0-LocalSlide11-Full_choiceC_probs,MOSS-7B-A800-FlashAttnSparse-0-LocalSlide11-Full_choiceD_probs
+A 10-N force at an angle 45° above the horizontal has a horizontal component of about,7 N,5 N,10 N,12 N,A,False,0.17890619,0.33424073,0.32395723,0.16289592
+A completely submerged object always displaces its own,weight of fluid.,volume of fluid.,density of fluid.,All of these.,B,False,0.08284994,0.088193305,0.11324244,0.7157143
+"When a diver points a flashlight upward toward the surface of the water at an angle 20° from the normal, the beam of light",totally internally reflects,passes into the air above,is absorbed,None of these,B,True,0.122313365,0.4269156,0.18361412,0.26715696
+"According to four-dimensional geometry, the angles of a triangle add to 180°",always.,sometimes.,never.,on planet Earth only.,B,True,0.16591188,0.45099524,0.20648067,0.17661227
+A voltage will be induced in a wire loop when the magnetic field within that loop,changes,aligns with the electric field,is at right angles to the electric field,converts to magnetic energy,A,False,0.15069145,0.33958843,0.29046538,0.21925478
+"Among these colors, the one that has the most energy per photon is",red,yellow-green,blue,violet,D,False,0.21120258,0.24692084,0.31705263,0.224824
+"According to general relativity,",mass distorts spacetime.,gravity affects clocks.,light can’t escape from a black hole.,All of these.,D,True,0.017137017,0.02067119,0.026542332,0.93564945
+A step-up transformer in an electric circuit can step up,voltage,energy,Both of these,Neither of these,A,False,0.08953472,0.29357308,0.5658769,0.051015355
+Spectral lines of the elements are,chaotic,ordered,positioned by amplitude,in phase,B,True,0.17409524,0.48826218,0.17409524,0.16354735
+A wave transfers,amplitude,wavelength,frequency,energy,D,False,0.17592536,0.1705127,0.372434,0.28112793
+"Immediately after two separated charged particles are released from rest, both increase in acceleration. The sign of charge of the particles is therefore",the same,opposite,Either of these,Need more information,B,True,0.12759426,0.47407016,0.22393489,0.17440067
+The surface of planet Earth loses energy to outer space due mostly to,conduction,convection,radiation,radioactivity,C,True,0.017608874,0.03394199,0.82233924,0.12610981
+"In a series circuit, if the current in one lamp is 2 A, the current in the lamp next to it is","half, 1 A",2 A,Depends on which lamp is closer to the battery,Not enough information to say,B,True,0.19049384,0.5342532,0.14835675,0.12689625
+"As a blinking light source approaching you gains speed, you see the frequency of flashes",increase.,decrease.,remain unchanged.,None of these.,A,False,0.18308,0.37565577,0.2581842,0.18308
+In the absence of air resistance a ball of mass m is tossed upward to reach a height of 20 m. At the 10-m position half way up the net force on the ball is,2mg,mg,mg/2,mg/4,B,True,0.24902657,0.3623315,0.20645028,0.18219173
+Pumice is a volcanic rock that floats in water. The density of pumice compared with that of water is,less.,equal.,greater.,none because it sinks.,A,False,0.20358665,0.4177327,0.26970848,0.10897209
+When you look at the red petals of a rose the color light you're seeing is,red.,green.,white minus red.,a mixture of green and yellow.,A,False,0.23970272,0.29831484,0.2632619,0.19872051
+Compared with the sound you hear from the siren of a stationary fire engine the sound you hear when it approaches you has an increased,speed,frequency,wavelength,All of these,B,False,0.09249592,0.12253719,0.12253719,0.66242975
+"When you squeeze an air-filled party balloon, you increase its",volume,mass,weight,density,D,False,0.26223043,0.4899109,0.1278009,0.12005783
+Polarization is a property of,transverse waves,longitudinal waves,all waves,None of these,A,False,0.13219583,0.21124832,0.5067584,0.1497975
+"In a vacuum, an object has no",buoyant force,mass,weight,All of these,A,False,0.08584094,0.113720775,0.14602037,0.6544179
+Temperature is generally proportional to a substance’s,thermal energy.,vibrational kinetic energy.,average translational kinetic energy.,rotational kinetic energy.,C,True,0.20751992,0.2749192,0.38769823,0.12986264
+"In a hydraulic press operation, the output piston cannot",move farther than the input piston,exceed the force input,exceed the input piston’s speed,produce increased energy,D,False,0.16799365,0.294838,0.26019362,0.27697468
+When a spinning system contracts in the absence of an external torque its rotational speed increases and its angular momentum,decreases,increases,remains unchanged,may increase or decrease,C,False,0.15395044,0.64815557,0.1316808,0.06621326
+"According to Hooke’s law, if you hang by a tree branch and note how much it bends, then hanging with twice the weight produces",half the bend.,the same bend if the branch doesn’t break.,twice the bend.,4 times the bend.,C,False,0.19305246,0.3182897,0.3182897,0.17036821
+When an increase in speed doubles the kinetic energy of a moving body its momentum,increases but less than doubles,doubles,more than doubles,depends on factors not stated,A,False,0.18010025,0.5211373,0.15404789,0.1447146
+Suppose the number of neutrons in a reactor that is starting up doubles each minute reaching one billion neutrons in 10 minutes. When did the number of neutrons reach half a billion?,1 minute.,2 minutes.,5 minutes.,9 minutes.,D,False,0.117935725,0.37479898,0.24966994,0.25759533
+"If an object is already moving and the sum of all the vector forces on a mass is zero, then the object will",move at a constant speed in a straight line,accelerate at a constant rate in a straight line,come to rest,increase its amount of inertia,A,False,0.23765963,0.36809444,0.19096488,0.20328106
+"Relativity equations for time, length, and momentum hold true for",everyday low speeds.,relativistic speeds.,Both of these.,Neither of these.,C,False,0.104490176,0.5306449,0.29304996,0.07181498
+Put a saucer of water on your table. A process that then occurs is,evaporation,condensation,Both,Neither,C,True,0.14031333,0.3583026,0.4188982,0.082485944
+A barometer that uses water instead of mercury will be,shorter,taller,equal in height,inoperable,B,True,0.2840673,0.3426506,0.22123185,0.15205029
+A heavy rock and a light rock in free fall (zero air resistance) have the same acceleration. The heavy rock doesn't have a greater acceleration because the,force due to gravity is the same on each.,air resistance is always zero in free fall.,inertia of both rocks is the same.,ratio of force to mass is the same.,D,True,0.14121342,0.272196,0.24783728,0.33875337
+When an increase in speed doubles the momentum of a moving body its kinetic energy,increases but less than doubles,doubles,more than doubles,depends on factors not stated,C,False,0.15926424,0.5222073,0.15926424,0.15926424
+The equation E = mc^2 indicates that energy,equals mass moving at the speed of light squared.,equals moving mass.,is fundamentally different than mass.,and mass are closely related.,D,True,0.08803016,0.18635985,0.18635985,0.5392501
+General relativity predicts that,light leaving the Sun is slowed by gravity.,light passing the Sun is deflected.,a clock on the Sun’s surface runs faster than on Earth.,All of these.,D,True,0.014677659,0.024967538,0.023454832,0.93689996
+"When an element ejects an alpha particle, the atomic number of the resulting element",reduces by 2,reduces by 4,increases by 2,increases by 4,A,False,0.16168423,0.3422855,0.27503413,0.22099614
+"As more lamps are connected in parallel in a circuit, the current in the power source",increases,decreases,remains the same,Not enough information to say,A,False,0.27447984,0.5290737,0.14239827,0.05404828
+An airplane with its nose pointing north with an airspeed of 40 km/h in a 30-km/h crosswind (at right angles) has a groundspeed of,30 km/h,40 km/h,50 km/h,60 km/h,C,False,0.17361103,0.5692486,0.14849739,0.108643
+The energy of an emitted photon is related to its,amplitude,polarization,momentum,frequency,D,True,0.04341428,0.061223947,0.076194435,0.8191674
+Thermal conduction involves mainly,electrons,protons,neutrons,ions,A,True,0.63347644,0.19933219,0.057109635,0.1100817
+Compared with the current in an LED lamp the current in the connecting wire is,less.,more.,the same.,Need more information.,C,False,0.26515448,0.3404651,0.26515448,0.12922598
+Bow waves are produced by waves of water,overlapping one another,constructively interfering,moving slower than the source producing them,All of these,D,True,0.093155615,0.14428224,0.11593402,0.6466281
+The speed of sound is slightly greater on a,cold day,hot day,day with steady temperature,None of these,B,True,0.15036595,0.32842943,0.28092057,0.24028412
+"Consider two mercury barometers, one having a cross-sectional area of 1 cm2 and the other 2 cm2. The height of mercury in the narrower tube is",half,twice,the same,None of these,C,False,0.21336873,0.34096223,0.25737178,0.18829724
+The second law of thermodynamics tells us that heat doesn’t flow from,hot to cold ever,cold to hot ever,hot to cold without external energy,cold to hot without external energy,D,False,0.08920206,0.18303074,0.45300543,0.27476168
+In a mixture of hydrogen oxygen and nitrogen gases at a given temperature the molecules having the greatest average speed are those of,hydrogen.,oxygen.,nitrogen.,But all have the same speed on average.,A,False,0.124222845,0.26297978,0.2180179,0.3947794
+"Compared with the power input, the power output of an ideal transformer is",greater,less,the same,Any of these,C,True,0.15960859,0.2250842,0.3076536,0.3076536
+The amount of air drag on an 0.8-N flying squirrel dropping vertically at terminal velocity is,less than 0.8 N,0.8 N,greater than 0.8 N,dependent on the orientation of its body,B,True,0.13461119,0.31298038,0.27620423,0.27620423
+The vibrations in a longitudinal wave move in a direction,along and parallel to the wave,perpendicular to the wave,Both of these,Neither of these,A,False,0.1516406,0.38722783,0.38722783,0.073903725
+The potential energy of a compressed spring and the potential energy of a charged object both depend on,the work done on them,motion,Both of these,Neither of these,A,False,0.0736104,0.41056585,0.46523207,0.05059164
+A step-up transformer in an electrical circuit can step up,voltage,energy,Both of these,Neither of these,A,False,0.08856595,0.2996148,0.5597541,0.052065242
+The neutrons in an atom are normally found,inside the nucleus,outside the nucleus,Either of these,Neither of these,A,False,0.3095063,0.47937274,0.15562955,0.055491425
+The greenish-blue color of ocean water is due mostly to light that hasn’t been,absorbed,reflected,scattered,refracted,A,False,0.21250886,0.46416202,0.20597064,0.117358536
+Noise-canceling devices make use of sound,destruction,interference,resonance,amplification,B,True,0.11866076,0.42731383,0.27589455,0.17813091
+Black is the combination of,all the colors together,two or more appropriate colors,light when a prism is held upside down,None of these,D,False,0.11538978,0.64359254,0.13918665,0.10183112
+"In a circuit of two lamps in parallel, if the current in one lamp is 2 A, the current in the other lamp is",about 1 A,2 A,Depends on which lamp is closer to the battery,Not enough information to say,D,False,0.18995742,0.5671081,0.13469997,0.10823447
+Which of these changes when light refracts in passing from one medium to another?,Speed only,Wavelength only,Both speed and wavelength,Neither of these,C,True,0.10295748,0.27986744,0.53945863,0.07771639
+"If the frequency of one source of sound is 500 Hz and a second sound source is 504 Hz, then when the two waves interfere with each other, the beat frequency will be",2 Hz,4 Hz,8 Hz,16 Hz,B,True,0.16348024,0.35707366,0.26953334,0.20991276
+The loudness of a sound is most closely related to its,frequency,period,wavelength,amplitude,D,False,0.4967758,0.16639905,0.0447857,0.29203942
+The electric field inside the dome of a Van de Graaff generator is zero when the dome is,charged,uncharged,Either of these,Neither of these,C,False,0.20235476,0.47048888,0.2154055,0.1117509
+The redness of a sunrise or sunset is due mostly to light that hasn’t been,absorbed,transmitted,scattered,polarized,C,False,0.24006279,0.37181652,0.25554553,0.13257526
+"When a nucleus of uranium-238 emits an alpha particle, left behind is",thorium-242,thorium-238,thorium-234,radium-214,C,False,0.2012022,0.42594507,0.2209774,0.15187539
+The Doppler effect occurs when a source of sound moves,toward you,away from you,Both of these,None of these,C,False,0.10749072,0.52908784,0.31103468,0.05238679
+"When a proton is plucked from an atomic nucleus, the atom has a decrease in",charge,energy,mass,all of these,D,False,0.09361614,0.1279581,0.41955844,0.35886735
+"If the Sun were twice as massive, its pull on Mars would be",unchanged,twice as much,half as much,four times as much,B,True,0.1942774,0.5448645,0.14664829,0.1142098
+During the time an aircraft produces a sonic boom the aircraft is,breaking the sound barrier,pulling out of a subsonic dive,flying faster than sound,Each of these produces a sonic boom,C,False,0.07891908,0.18931703,0.13011558,0.60164833
+"When food is exposed to gamma radiation, the food",becomes slightly radioactive,doesn’t become radioactive,will spoil faster,should be avoided,B,True,0.19857302,0.43372336,0.19246358,0.17524008
+The red glow in the neon tube of an advertising sign is a result of,fluorescence.,coherence.,polarization.,de-excitation.,D,False,0.5591847,0.2560134,0.07807968,0.106722265
+Light that is not transmitted by opaque materials is,reflected or converted to internal energy in the material.,mainly reflected.,mainly refracted.,transmitted at a lower frequency.,A,False,0.15758355,0.4559831,0.25981134,0.12662193
+Imagine you're standing on the surface of a shrinking planet. If it shrinks to one-tenth its original diameter with no change in mass on the shrunken surface you'd weigh,1/100 as much,10 times as much,100 times as much,1000 times as much,C,False,0.21410722,0.34214234,0.24261525,0.2011351
+A magnetic force acting on a beam of electrons can change its,direction,energy,Both of these,Neither of these,A,False,0.091871664,0.24973306,0.5990785,0.059316803
+Microscopic slush in water tends to make the water,more dense,less dense,more slippery,warmer,A,False,0.27698568,0.486125,0.13499203,0.10189734
+The speed of sound in air depends on,frequency.,wavelength.,air temperature.,All of these.,C,False,0.03783559,0.07524505,0.1028478,0.7840715
+Heat comes from the Sun to Earth by the process of,conduction,convection,radiation,"All of these, although radiation is greatest",C,False,0.05241199,0.10754241,0.3872751,0.45277047
+A torque is a force,like any other force,multiplied by a lever arm,that is fictitious,that accelerates things,B,True,0.22573386,0.32844082,0.20553301,0.24029244
+All of the following are electromagnetic waves EXCEPT,microwaves,light waves,X-rays,None is outside the family; all are electromagnetic waves,D,True,0.10211856,0.3564288,0.17370953,0.36774307
+Big brother and little sister can balance on a seesaw because of balanced,forces,torques,energies,All of these,B,False,0.17076921,0.19350688,0.19964945,0.4360745
+Any atom that emits an alpha particle or beta particle,becomes an atom of a different element always.,may become an atom of a different element.,becomes a different isotope of the same element.,increases its mass.,A,False,0.34657523,0.4051875,0.1125165,0.1357208
+Regelation occurs due to water’s,high specific heat,open-structured ice crystals,high rate of expansion,slight tendency to freeze when its temperature is lowered,B,True,0.19609076,0.36634576,0.21536355,0.22219995
+"A big fish swims upon and swallows a small fish that is at rest. Right after lunch, the fattened big fish has a change in",speed,momentum,Both,Neither,A,False,0.12244714,0.2937354,0.4996608,0.08415661
+A capacitor can store,charge,energy,Both of these,Neither of these,C,True,0.108132094,0.24367943,0.6031124,0.04507616
+"For a tube closed at one end, the length of the tube at a frequency of 256 Hz will be",one-quarter the value for a tube open at both ends,one-half the value for a tube open at both ends,twice the value for a tube open at both ends,four times the value for a tube open at both ends,B,True,0.19482835,0.34193438,0.24246779,0.22076944
+The period of a 10-Hz wave is,1/10 s,1.0 s,10 s,None of these,A,False,0.19773313,0.34703243,0.22406098,0.23117343
+If the Sun collapsed to become a black hole Planet Earth would,continue in its present orbit.,likely be sucked into the black hole.,be pulled apart by tidal forces.,Both C and D.,A,False,0.040040497,0.25306374,0.31494293,0.39195278
+The electric field between a pair of oppositely charged parallel plates,gets weaker with distance inside the plates,follows the inverse-square law,Both of these,Neither of these,D,False,0.06891593,0.43556213,0.42216128,0.07336064
+The flight of a blimp best illustrates,Archimedes’ principle,Pascal’s principle,Bernoulli’s principle,Boyle’s law,A,False,0.18998325,0.3662023,0.2596763,0.18413807
+The distance of your image behind a plane mirror is equal to,half your height,half your distance from the mirror,your distance in front of the mirror,more than your distance in front of the mirror,C,False,0.16925398,0.38141972,0.21063998,0.23868637
+The discrete orbits of electrons are best understood when modeled by,high-speed particles,particles on springs,waves,photons,C,False,0.22519524,0.3380581,0.22519524,0.21155137
+"Heat engines, such as a jet engine, are more efficient when run at",high temperatures,constant temperatures,low temperatures,a constant rate,A,False,0.2769382,0.3041571,0.2225261,0.19637859
+The phenomenon of interference occurs for,sound waves,light waves,Both of these,Neither of these,C,False,0.0816691,0.68380696,0.22199962,0.012524362
+As more lamps are connected in a series circuit the current in the power source,increases.,decreases.,remains much the same.,Need more information.,B,True,0.28285578,0.46635032,0.17700662,0.07378733
+"When you buy a pipe in a hardware store, the water isn’t included. When you buy copper wire, electrons",must be supplied by you,are included in the wire,may fall out—hence insulation,None of these,B,False,0.06754835,0.32225516,0.22148253,0.38871393
+When a uranium nucleus undergoes fission the energy released is primarily in the form of,gamma radiation.,kinetic energy of fission fragments.,kinetic energy of ejected neutrons.,All of these about equally.,B,False,0.054545585,0.21573198,0.3138882,0.41583428
+Most of the radiation in Earth’s biosphere is,natural background radiation,the result of military activities,from nuclear power plants,in the form of cosmic rays,A,False,0.133185,0.19378303,0.1462751,0.5267569
+When white light enters a prism green light is bent more than,blue light.,violet light.,red light.,None of these choices is correct.,C,False,0.13206235,0.39426532,0.26263732,0.21103503
+When a ball at rest hangs by a single vertical string tension in the string is mg. If the ball is made to move in amhorizontal circle so that the string describes a cone string tension,is mg,is greater than mg always,is less than mg always,may be greater or less than mg depending on the speed of the ball,B,True,0.15664119,0.36420166,0.25825766,0.22089948
+"When a tin can is whirled in a horizontal circle, the net force on the can acts",inward,outward,upward,None of these,A,False,0.1936408,0.38510072,0.1876831,0.2335754
+The highest ocean tides occur when Earth and the Moon are,lined up with the Sun,at right angles to the Sun,at any angle to the Sun,lined up during spring,A,False,0.21924767,0.46414733,0.23338793,0.083217025
+"Lift a 100-N crate with an ideal pulley system by pulling a rope downward with 25 N of force. For every 1-m length of rope pulled down, the crate rises",25 cm,25 m,50 cm,None of these,A,False,0.15365082,0.40481597,0.20355426,0.23797902
+"Hot sand cools off faster at night than does vegetation. Compared with vegetation, sand’s specific heat capacity is",lower,higher,about the same,Can’t say,A,False,0.28642383,0.39149496,0.2449913,0.07708993
+The color of light most intense in the solar radiation curve is,infrared,red,yellow-green,violet,C,False,0.167427,0.53208196,0.14320792,0.15728313
+"If the current in the filament of a lamp is 3 A, the current in the connecting wire is",less than 3 A,3 A,more than 3 A,Not enough information to say,B,True,0.16120818,0.41165954,0.21356615,0.21356615
+"If two protons and two neutrons are removed from the nucleus of neon-20, a nucleus of which element remains?",Magnesium-22,Magnesium-20,Oxygen-18,Oxygen-16,D,False,0.20519085,0.44817802,0.18682839,0.1598028
+"If a star that is 20 light-years from Earth explodes, gravitational waves from the explosion would reach Earth in",less than 20 years.,20 years.,more than 20 years.,None of these.,B,True,0.12767904,0.29686263,0.2877291,0.2877291
+"In a mixture of hydrogen, oxygen, and nitrogen gases at a given temperature, the fastest molecules on average are those of",hydrogen,oxygen,nitrogen,All have same average speed,A,False,0.19397353,0.4371261,0.21303825,0.15586211
+The mutual induction of electric and magnetic fields can produce,light,energy,Both of these,Neither of these,A,False,0.05248902,0.3068101,0.591392,0.049308874
+"When a model car speeds up to three times its original speed, its kinetic energy is",the same,twice as great,three times greater,None of these,D,False,0.083886504,0.43953383,0.4002001,0.07637953
+"If an iron nucleus split in two, its fission fragments would have",less mass per nucleon,more mass per nucleon,the same mass per nucleon,either more or less mass per nucleon,B,True,0.1798289,0.40525067,0.31560954,0.09931094
+The surface of Planet Earth loses energy to outer space due mostly to,conduction.,convection.,radiation.,radioactivity.,C,True,0.01313296,0.028685022,0.81250745,0.14567456
+The direction of natural processes is from states of,higher order to lower order,lower order to higher order,disorganization to organization,disorder to equilibrium,A,False,0.22447655,0.3369792,0.24653926,0.19200498
+A principal source of the Earth’s internal energy is,tidal friction.,gravitational pressure.,radioactivity.,solar radiation.,C,False,0.1505188,0.3287633,0.24816357,0.27255434
+A diffraction grating relies on light,interference,amplitudes,variations in brightness,being composed of photons,A,True,0.31527153,0.287058,0.17410947,0.22356099
+A satellite in Earth orbit is above Earth’s,atmosphere,gravitational field,Both,Neither,A,False,0.1946805,0.4526457,0.28325844,0.069415465
+The time it takes for a pendulum swinging to and fro refers to its,frequency,period,wavelength,amplitude,B,True,0.34585732,0.5356743,0.062008798,0.05645965
+"As entropy in a system increases, energy in the system",becomes more ordered,becomes less ordered,reaches equilibrium,moves toward destruction,B,True,0.12480683,0.65394104,0.10028511,0.12096693
+"When water changes to steam, energy is",absorbed by the water,released by the water,conserved as the phase change occurs,changed to a different form,A,False,0.12881942,0.29029903,0.2995141,0.28136748
+"According to Coulomb, a pair of charged particles placed twice as close to each other experience a force",twice as strong,four times as strong,half as strong,one-fourth as strong,B,True,0.21706682,0.39305723,0.2310664,0.15880947
+"The factors, both of which will increase the magnetic field strength of an electromagnet, are",increased electrical current and fewer coils of wire,increased diameter of coil and an increase in the number of coils,an increase in the electrical current and using a strong ferromagnetic material like iron,using an air core instead of iron and increasing the diameter of the coil,C,False,0.097780876,0.24969223,0.265796,0.38673088
+The team that wins in a tug-of-war is the team that,produces more tension in the rope than the opponent,pushes hardest on the ground,Both,Neither,B,True,0.16280143,0.39054033,0.3237693,0.12288896
+Which type of radiation from cosmic sources predominates on the inside of high-flying commercial airplanes?,Alpha,Beta,Gamma,None of these,C,True,0.13741454,0.3296404,0.35090035,0.1820447
+Thermal convection involves mainly,radiant energy,fluids,insulators,All of these,B,False,0.06652808,0.3828427,0.10304071,0.44758844
+A 10-Ω resistor carries 10 A. The voltage across the resistor is,0,more than 0 but less than 10 V,10 V,more than 10 V,D,False,0.14057045,0.33721098,0.29758763,0.22463094
+A cannonball is fired horizontally at 10 m/s from a cliff. Its speed one second after being fired is about,10 m/s,14 m/s,16 m/s,20 m/s,B,True,0.16800593,0.42901817,0.2296369,0.17333901
+The average speed of a gazelle traveling a distance of 2 km in a time of one-half hour is,1 km/h,2 km/h,4 km/h,greater than 4 km/h,C,False,0.1743062,0.45923567,0.16894336,0.1975148
+The metal detectors people walk through at airports operate via,Ohm’s law,Faraday’s law,Coulomb’s law,Newton’s laws,B,True,0.1506371,0.3968759,0.2191757,0.23331128
+Sound travels in,solids,liquids,gases,All of these,D,True,0.05371807,0.09137752,0.3290631,0.5258413
+When a fusion reaction converts a pair of hydrogen isotopes to an alpha particle and a neutron most of the energy released is in the form of,gamma radiation.,kinetic energy of the alpha particle.,kinetic energy of the neutron.,All of these about equally.,C,True,0.04326329,0.17654122,0.4798888,0.30030674
+Polarization is a property of,transverse waves.,longitudinal waves.,all waves.,None of these.,A,False,0.11849865,0.25086167,0.46867126,0.16196847
+The phenomenon of beats results from sound,reflection.,refraction.,interference.,All of these.,B,False,0.043703176,0.0743416,0.3659222,0.516033
+"The lowest possible temperature is absolute zero, at",0 kelvin,−273°C,Both are the same,None of these,C,True,0.18547878,0.28727514,0.44494045,0.08230571
+Refraction occurs when a wave crosses a boundary and changes,speed and direction,intensity,frequency,amplitude,A,True,0.66066605,0.13422245,0.118450895,0.08666053
+"When you tap a piece of wood, it will produce a characteristic sound related to its",wavelength,amplitude,period,natural frequency,D,False,0.09462632,0.12933883,0.46576706,0.31026775
+"When wind speeds up as it blows over the top of a hill, atmospheric pressure there",increases,decreases,isn’t affected,reduces to zero,B,True,0.24184778,0.52824414,0.15614867,0.07375941
+"When white light passes through a prism, the light that bends more than green is",red,yellow,blue,None of these,C,True,0.12998661,0.25850925,0.37612873,0.23537536
+"If you travel at high speed, then compared with your friends who “stay at home,” you are",older.,younger.,neither younger nor older.,longer.,B,True,0.21378374,0.34162542,0.2499385,0.1946523
+The component of velocity that can remain constant for a tossed baseball is,horizontal,vertical,Either of these,None of these,A,False,0.16762729,0.35486698,0.35486698,0.122638755
+The crystals that make up minerals are composed of,atoms with a definite geometrical arrangement.,molecules that perpetually move.,X-ray patterns.,3-dimensional chessboards.,A,True,0.49180225,0.3276109,0.10973591,0.070850834
+"Two vectors, one 3 N and the other 4 N, can have a resultant of",0 N,5 N,8 N,Any of these,B,False,0.08406198,0.25892913,0.24324138,0.41376755
+Radioactivity has been around on Earth since the,middle of the 1900s,Industrial Revolution,advent of medical technology,Earth formed,D,True,0.112610266,0.19763717,0.16904803,0.52070457
+"When the shadow of the Moon falls on Earth, we have a",lunar eclipse.,solar eclipse.,solar eclipse if it’s daytime and lunar eclipse if it’s nighttime.,very dangerous event.,B,True,0.26851135,0.3670115,0.1964471,0.1680301
+"In both fission and fusion, energy is released while mass",decreases,remains unchanged; is conserved,increases,may decrease or increase,A,False,0.0758051,0.6548561,0.15554196,0.11379693
+"When relatively slow-moving molecules condense from the air, the temperature of the remaining air tends to",remain unchanged,decrease,increase,spread out uniformly,C,False,0.09285574,0.6861163,0.15309323,0.067934714
+"If the volume of an object were to double, with no change in mass, its density would",halve.,double.,be the same.,None of these.,A,False,0.15404543,0.4457452,0.24616389,0.15404543
+The pressure at the bottom of a pond does NOT depend on the,acceleration due to gravity.,water density.,depth of the pond.,surface area of the pond.,D,False,0.125974,0.36451784,0.24282122,0.26668695
+The blueness of the daytime sky is due mostly to light,absorption,transmission,reflection,scattering,D,False,0.13765886,0.31021905,0.38607383,0.16604829
+A galvanometer can be calibrated to read electric,current,voltage,Either of these,Neither of these,C,False,0.19403572,0.3513533,0.34054327,0.11406771
+Which of these temperatures is likely when a container of water at 20°C is mixed with water at 28°C?,19°C,22°C,30°C,Higher than 30°C,B,False,0.10413338,0.2830639,0.2920493,0.3207534
+To view your full-face image in a steamy mirror compared with the height of your face the minimum height of the patch to wipe away is,one-quarter.,one-half.,the same.,dependent on your distance from the mirror.,B,True,0.16813011,0.28599897,0.26867118,0.27719972
+The vibrations in a transverse wave move in a direction,along the wave,perpendicular to the wave,Both of these,Neither of these,B,True,0.08580448,0.7412376,0.14595833,0.026999578
+A 1134-Hz tuning fork is sounded at the same time a piano note is struck. You hear three beats per second. The frequency of the piano string is,1131 Hz,1134 Hz,1137 Hz,More information is needed,D,False,0.19806837,0.5057853,0.16420443,0.13194199
+Huygens’ principle for light is primarily described by,waves,rays,particles,photons,A,True,0.38576823,0.29119313,0.17661756,0.1464211
+"When the temperature of a strip of iron is increased, the length of the strip",also increases.,actually decreases.,may increase and may decrease.,decreases in width as it gets longer.,A,False,0.11991191,0.43181938,0.23113626,0.21713242
+"When light undergoes interference, it can sometimes",build up to more than the sum of amplitudes,cancel completely,Both of these,Neither of these,B,False,0.053804677,0.31945306,0.543408,0.08333431
+When the color yellow is seen on your TV screen the phosphors being activated on the screen are,mainly yellow.,blue and red.,green and yellow.,red and green.,D,False,0.21885286,0.46331152,0.19313698,0.12469861
+Which of these does NOT belong in the family of electromagnetic waves?,Light,Sound,Radio waves,X-rays,B,False,0.109007426,0.2871963,0.27836022,0.32543606
+A math book and a physics book sitting on a table are tied together with a length of string. With the string taut one book is pushed off the edge of the table. As it falls the other book is dragged horizontally across the table surface. With no friction acceleration of the books is,zero,g/2,g,a value between zero and g,D,False,0.1633573,0.36813137,0.22328296,0.24522835
+A motor and a generator are,similar devices,very different devices,forms of transformers,energy sources,A,False,0.1869187,0.6128828,0.09697214,0.103226304
+As more lamps are connected in parallel in a circuit the current in the power source,increases.,decreases.,remains much the same.,Need more information.,A,False,0.27203953,0.44851738,0.19902839,0.080414735
+Newton’s law of cooling applies to objects that,cool,warm up,Both,Neither,C,True,0.21196875,0.28972694,0.44873786,0.049566433
+The fact that the Moon always shows its same face to Earth is evidence that the Moon rotates about its axis about once per,day,month,year,None of these for the moon does not rotate about an axis,B,False,0.13362543,0.33072615,0.34122452,0.19442388
+Consider a ball rolling in a horizontal circular path on the inside surface of a cone. The normal force on the ball,is mg,is greater than mg always,may be greater or less than mg,is less than mg always,B,False,0.11580002,0.2232104,0.39174643,0.26924312
+The compressions and rarefactions in sound normally travel,in the same direction,in opposite directions,at right angles to each other,None of these,A,False,0.13094522,0.442982,0.32409257,0.10198025
+The power required to raise a 100-kg crate a vertical distance of 2 m in a time of 4 s is,200 W,500 W,800 W,2000 W,B,True,0.19868323,0.37118912,0.2049901,0.22513758
+The phenomenon of beats is the result of sound,destruction,interference,resonance,amplification,B,True,0.10894337,0.41762263,0.38024974,0.0931842
+Interference is characteristic of,sound waves,light waves,water waves,All of these,D,False,0.079882346,0.59025514,0.105826914,0.22403559
+"In either a fission event or a fusion event, a quantity that remains unchanged is the",kinetic energy,mass,number of nucleons,binding of nucleons,C,False,0.052202042,0.29115963,0.17659724,0.48004106
+The magnetic force on a moving charged particle can change the particle's,speed,direction,Both of these,Neither of these,B,False,0.082895935,0.31777257,0.5405494,0.058782022
+"If you were to travel at a speed close to the speed of light, you could notice that your own",mass changes.,pulse decreases.,Both of these.,Neither of these.,D,False,0.066895805,0.30932307,0.50998753,0.113793604
+Electricity and magnetism connect to form,mass,energy,ultrahigh-frequency sound,light,D,False,0.16739789,0.3892117,0.16739789,0.27599245
+Sound travels in air by a series of,compressions,rarefactions,Both of these,Neither of these,C,True,0.07632383,0.3876044,0.49769387,0.03837803
+"When a cannonball is fired from a cannon, both the cannonball and the cannon experience equal",amounts of force,accelerations,Both,Neither,A,False,0.10684059,0.38474774,0.42256272,0.08584882
+The nucleus of an electrically neutral iron atom contains 26 protons. The number of electrons this iron atom has is,52,26,24,None.,B,True,0.12978381,0.65909654,0.12192061,0.089199014
+To say that a rose petal is red is to say that it,absorbs red,reflects red,emits red,transmits red,B,True,0.2648103,0.4504575,0.15567397,0.12905824
+"Compared with a sound of 60 decibels, a sound of 80 decibels has an intensity",10 times greater,100 times greater,1000 times greater,more than 1000 times greater,B,True,0.15190086,0.32157412,0.24273688,0.28378817
+"When red and blue light are overlapped, the color produced is",magenta,yellow,cyan,white,A,False,0.16661748,0.29242277,0.26625398,0.27470577
+"When 100 J are put into a device that puts out 40 J of useful work, the efficiency of the device is",40%,50%,60%,140%,A,False,0.19127993,0.3463632,0.21674855,0.24560829
+Shock waves are produced by waves of sound,overlapping one another,constructively interfering,moving slower than the source producing them,All of these,D,True,0.07714316,0.11948166,0.115805596,0.6875695
+A rock suspended by a weighing scale weighs 5 N out of water and 3 N when submerged in water. What is the buoyant force on the rock?,3 N,5 N,8 N,None of these,D,False,0.20477402,0.47611386,0.16454056,0.15457153
+The work done on a 100-kg crate that is hoisted 2 m in a time of 4 s is,200 J,500 J,800 J,2000 J,D,False,0.2069928,0.35210663,0.21356347,0.22733714
+A capacitor loses half its remaining charge every second. If after five seconds its charge is q what was its initial charge?,4q.,8q.,16q.,32q.,D,False,0.21056034,0.3812755,0.20408209,0.20408209
+The mass of an atom comes mostly from its _ ; and its volume from its _.,nucleons; nucleons.,electrons; electrons.,electrons; nucleons.,nucleons; electrons.,D,False,0.21070454,0.36979795,0.27913812,0.14035948
+The definition of magnetic inclination is the angle between,magnetic north and geographic north,magnetic north and geographic south,the earth’s magnetic field at any point and the vertical,the earth’s magnetic field at any point and the horizontal,D,False,0.0970415,0.2897124,0.3494599,0.26378617
+The pitch of a sound is mostly related to its,intensity,frequency,amplitude,speed,B,True,0.077339076,0.8578671,0.038888525,0.025905343
+"As more lamps are connected to a series circuit, the current in the power source",increases,decreases,remains the same,None of these,B,True,0.24853894,0.52615696,0.16046882,0.06483526
+"When an element ejects an alpha particle, the mass number of the resulting element",reduces by 2,reduces by 4,increases by 2,increases by 4,B,True,0.16364433,0.33577636,0.26980388,0.23077549
+An electron can be speeded up by,an electric field,a magnetic field,Both of these,Neither of these,A,False,0.09812275,0.34248206,0.4829771,0.07641807
+"A certain element emits 1 alpha particle, and its products then emit 2 beta particles in succession. The atomic number of the resulting element is changed by",zero,minus 1,minus 2,plus 1,A,False,0.12837274,0.36003026,0.2717651,0.23983185
+"When an object is set vibrating by a wave that has a matching frequency, what occurs is",forced vibration,resonance,refraction,amplitude reduction,B,True,0.11060457,0.81726336,0.032694645,0.03943727
+The red glow in the neon tube of an advertising sign is a result of,fluorescence,incandescence,de-excitation,polarization,C,False,0.46756214,0.32135046,0.12983732,0.081250116
+"At very high speeds, an object appears to an observer at rest to be",shorter in the direction of travel.,shrunken in all directions.,shorter in the direction perpendicular to travel.,longer in all directions.,A,False,0.21111426,0.41985083,0.20461895,0.16441594
+"When a wave moves from shallow water to deep water, the","frequency decreases, the wavelength increases, and the speed increases","frequency does not change, the wavelength increases, and the speed increases","frequency does not change, the wavelength decreases, and the speed decreases","frequency does not change, the wavelength increases, and the speed decreases",B,True,0.21146038,0.39505997,0.21817285,0.1753068
+When you drop a ball from rest it accelerates downward at 9.8 m/s^2. If you instead throw it downward assuming no air resistance its acceleration immediately after leaving your hand is,9.8 m/s2,more than 9.8 m/s2,less than 9.8 m/s2,Cannot say unless the speed of throw is given.,A,False,0.14271842,0.4002637,0.2427722,0.21424572
+Carbon-14 is primarily produced by cosmic radiation in the,atmosphere,food we eat,Earth’s interior,fallout of nuclear bomb tests,A,False,0.088295616,0.33847165,0.40827477,0.16495791
+Chain reactions in a fission reactor are caused by,kinetic energy,energy conversion,mass conversion,ejected neutrons,D,True,0.068646304,0.19252332,0.24720484,0.49162552
+Satellites in circular Earth orbit maintain a constant speed because gravitational force on them is,zero,practically zero,appreciably weaker than at Earth’s surface,without a component of force along their circular path,D,False,0.07779989,0.28906167,0.523423,0.109715424
+The complementary color of blue is,magenta,yellow,cyan,white,B,True,0.14448923,0.40523008,0.29647267,0.15380798
+"The difference between dc and ac in electric circuits is that in dc, charges flow",steadily in one direction,in one direction,to and fro,All of these,B,False,0.10686654,0.17077224,0.21252948,0.5098317
+To receive an electric shock there must be a,current in one direction.,presence of moisture.,high voltage and low body resistance.,voltage difference across part or all of your body.,D,True,0.033017453,0.08171898,0.4150032,0.47026026
+A karate chop delivers a force of 3000 N to a board that breaks. The force that the board exerts on the hand during this event is,less than 3000 N,3000 N,greater than 3000 N,Need more information,B,True,0.21042103,0.44546133,0.20394705,0.14017062
+Find the speed of a wave by multiplying its frequency by its,period,wavelength,amplitude,None of these,B,True,0.15054043,0.67467535,0.09420579,0.08057848
+The magnitude of the gravitational force on a satellite is constant if the orbit is,parabolic,circular,elliptical,All of these,B,False,0.1169792,0.2636167,0.24764498,0.37175915
+The impulse–momentum relationship is a direct result of Newton’s,first law,second law,third law,law of gravity,B,True,0.22620161,0.49406976,0.176166,0.103562646
+A common nuclear fission reactor,heats water,generates electricity directly,gets energy from nothing,is a major polluter of the atmosphere,A,False,0.09872269,0.2856636,0.26009968,0.35551408
+The process of boiling water tends to,warm the water,cool the water,Both,Neither,B,False,0.1699595,0.35980427,0.40771165,0.06252461
+"When you scale up an object to 3 times its linear size, the surface area increases by",3 and the volume by 9.,3 and the volume by 27.,9 and the volume by 27.,4 and the volume by 8.,C,False,0.18594216,0.36979014,0.24633333,0.1979344
+"If you change the magnetic field in a closed loop of wire, what is created in the loop is a(n)",current,voltage,electric field,All of these,D,True,0.121091135,0.11736555,0.16551195,0.5960314
+Clocks on a fast-moving spaceship whizzing past Earth appear to run slow when viewed from,inside the spaceship.,Earth.,Both of these.,Neither of these.,B,True,0.15489629,0.37157688,0.34906417,0.124462664
+The model of light most supported by the photoelectric effect is the,wave model,particle model,Both of these,Neither of these,B,True,0.20263177,0.664404,0.101889655,0.03107459
+"Compared with a fundamental tone, the frequency of its second harmonic is",half as much,twice as much,the same,four times as much,B,True,0.20624442,0.43661946,0.20624442,0.15089166
+A string is plucked producing four loops (antinodes). The length of the string is 12.00 m. The wavelength of the wave must be,48.0 m,24.0 m,6.00 m,3.00 m,C,False,0.17244731,0.3538389,0.28431755,0.18939632
+"During the time an aircraft produces a sonic boom, the aircraft is",breaking the sound barrier,pulling out of a subsonic dive,flying faster than sound,All of these,C,False,0.08282022,0.11679523,0.12827447,0.67211014
+The principal source of Earth’s internal energy is,tidal friction,gravitational pressure,radioactivity,geothermal heat,C,False,0.08761193,0.26156092,0.24571374,0.40511346
+"When you brush your hair and scrape electrons from your hair, the charge of your hair becomes",positive,negative,Both of these,Neither of these,A,False,0.1439732,0.40378284,0.3563371,0.09590683
+Astrophysicists are able to identify the elements in the outer layers of a star by studying its,Doppler effect.,molecular structure.,temperature.,spectrum.,D,True,0.03897205,0.07280937,0.054959398,0.8332591
+Relativistic equations for time dilation length contraction and relativistic momentum and energy hold true,at speeds near that of light.,at everyday low speeds.,at all speeds.,only approximately.,C,True,0.22676642,0.21302736,0.34041673,0.21978956
+"In his special theory of relativity, Einstein stated that the laws of physics are",different in different situations.,common sense applied to microscopic and macroscopic things.,the same in all frames of reference.,the same in all uniformly moving frames of reference.,D,False,0.013681976,0.061318368,0.79518867,0.12981099
+"When an element ejects a beta particle, the atomic number of that element",reduces by 1,increases by 1,reduces by 2,increases by 2,B,True,0.19936483,0.52525634,0.16527922,0.11009971
+The amount of heat transferred to a system can be measured in,calories,joules,Either,Neither,C,False,0.14079651,0.42034075,0.29806623,0.14079651
+"Compared with the sound you hear from the siren of a stationary fire engine, its sound when it approaches you has an increased",speed,frequency,Both of these,Neither of these,B,True,0.09781064,0.41179818,0.41179818,0.07859306
+Light reflecting from a smooth surface undergoes a change in,frequency.,wavelength.,All of these.,None of these.,D,False,0.05652024,0.099196106,0.7802378,0.06404582
+What Einstein discovered about space and time is that they,are separate entities.,are parts of one whole.,follow an inverse-square law.,are special to space travelers.,B,True,0.20071566,0.58079,0.11436433,0.1041299
+All parts of a laser beam have the same,frequency,phase,speed,All of these,D,True,0.055664163,0.04472741,0.055664163,0.8439443
+The rotational inertia of an object is greater when most of the mass is located,near the rotational axis,away from the axis,on the rotational axis,off center,B,True,0.30902684,0.361289,0.21239084,0.117293365
+"When small pieces of material are assembled into a larger piece, the combined surface area",greatly increases,slightly increases,decreases,is unchanged,C,False,0.17891148,0.47136894,0.24454299,0.10517663
+A rainbow is the result of light in raindrops that undergoes,internal reflection,dispersion,refraction,All of these,D,True,0.05511996,0.08274487,0.2112964,0.65083873
+"In the atomic nucleus, electrical forces tend to",hold particles together,push particles apart,produce orbital motion,charge particles,B,True,0.27954316,0.52225536,0.112945646,0.08525585
+The fact that the acceleration of free fall is the same for all masses is explained by Newton’s,first law,second law,third law,law of action–reaction,B,True,0.28441796,0.35396385,0.18363403,0.17798421
+"Compared with radiation from the Sun, terrestrial radiation has a lower",wavelength,frequency,Both,Neither,B,True,0.18765227,0.40987027,0.31920728,0.0832702
+"When we speak of time dilation, we mean that time",compresses with speed.,stretches with speed.,is a constant at all speeds.,is related to space.,B,False,0.2192452,0.2904527,0.37294865,0.11735349
+The magnetic field lines about a current-carrying wire form,circles,radial lines,eddy currents,energy loops,A,False,0.15811165,0.3676206,0.27749458,0.19677313
+An inflated balloon with a heavy rock tied to it is dropped into a deep lake. As the balloon sinks deeper and deeper the buoyant force acting on it,increases.,decreases.,remains largely unchanged.,Need more information.,B,True,0.2327804,0.44869596,0.21194896,0.10657463
+"A radioactive sample has a half-life of 1 hour. If we start with 1.000 gram of it at noon, how much remains at 3:00 pm?",0.50 g,0.25 g,0.125 g,0.0625 g,C,False,0.19357164,0.3093266,0.2485509,0.2485509
+Boiling and freezing occur when water is subjected to,decreased temperatures,decreased atmospheric pressure,increased temperatures,increased atmospheric pressure,B,True,0.27314392,0.39742205,0.18772888,0.14170519
+"When you bend the branch of a tree by hanging on its end, the top side of the branch is under",tension.,compression.,Both.,Neither.,A,False,0.2318946,0.38232955,0.29775855,0.08801726
+A simple and correct way to comprehend satellites orbiting Earth is to view them as,balanced between gravitational and centripetal forces.,beyond the main pull of Earth gravity.,in mechanical equilibrium with a net force of zero.,having sufficient tangential velocities to fall around rather than into Earth.,D,False,0.16417807,0.2881415,0.33687153,0.21080883

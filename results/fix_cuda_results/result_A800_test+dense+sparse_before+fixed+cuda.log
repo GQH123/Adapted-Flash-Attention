@@ -1,0 +1,272 @@
+Testing blocksparse and dense match, on device: cuda:0
+Statistics of flash_attn_dense:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+Statistics of flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+Statistics of error between flash_attn_dense and flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    0.0
+AMax:   0.0
+Min:    0.0
+Mean:   0.0
+Std:    0.0
+Norm:   0.0
+
+===================================================================
+
+[OK] Flash Attention gives the same result between sparse and dense!
+Testing blocksparse and dense match, on device: cuda:1
+Statistics of flash_attn_dense:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+Statistics of flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    0.0
+AMax:   0.0
+Min:    0.0
+Mean:   0.0
+Std:    0.0
+Norm:   0.0
+
+Statistics of error between flash_attn_dense and flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+===================================================================
+
+[FAIL] Flash Attention gives different results between sparse and dense!
+Testing blocksparse and dense match, on device: cuda:2
+Statistics of flash_attn_dense:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+Statistics of flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    0.0
+AMax:   0.0
+Min:    0.0
+Mean:   0.0
+Std:    0.0
+Norm:   0.0
+
+Statistics of error between flash_attn_dense and flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+===================================================================
+
+[FAIL] Flash Attention gives different results between sparse and dense!
+Testing blocksparse and dense match, on device: cuda:3
+Statistics of flash_attn_dense:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+Statistics of flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    0.0
+AMax:   0.0
+Min:    0.0
+Mean:   0.0
+Std:    0.0
+Norm:   0.0
+
+Statistics of error between flash_attn_dense and flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+===================================================================
+
+[FAIL] Flash Attention gives different results between sparse and dense!
+Testing blocksparse and dense match, on device: cuda:4
+Statistics of flash_attn_dense:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+Statistics of flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    0.0
+AMax:   0.0
+Min:    0.0
+Mean:   0.0
+Std:    0.0
+Norm:   0.0
+
+Statistics of error between flash_attn_dense and flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+===================================================================
+
+[FAIL] Flash Attention gives different results between sparse and dense!
+Testing blocksparse and dense match, on device: cuda:5
+Statistics of flash_attn_dense:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+Statistics of flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    0.0
+AMax:   0.0
+Min:    0.0
+Mean:   0.0
+Std:    0.0
+Norm:   0.0
+
+Statistics of error between flash_attn_dense and flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+===================================================================
+
+[FAIL] Flash Attention gives different results between sparse and dense!
+Testing blocksparse and dense match, on device: cuda:6
+Statistics of flash_attn_dense:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+Statistics of flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    0.0
+AMax:   0.0
+Min:    0.0
+Mean:   0.0
+Std:    0.0
+Norm:   0.0
+
+Statistics of error between flash_attn_dense and flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+===================================================================
+
+[FAIL] Flash Attention gives different results between sparse and dense!
+Testing blocksparse and dense match, on device: cuda:7
+Statistics of flash_attn_dense:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+Statistics of flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    0.0
+AMax:   0.0
+Min:    0.0
+Mean:   0.0
+Std:    0.0
+Norm:   0.0
+
+Statistics of error between flash_attn_dense and flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+===================================================================
+
+[FAIL] Flash Attention gives different results between sparse and dense!

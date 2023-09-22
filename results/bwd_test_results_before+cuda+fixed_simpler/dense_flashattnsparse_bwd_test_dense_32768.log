@@ -1,0 +1,33 @@
+doing backward on sparse blocks
+Statistics of dqkv:
+Shape: 	torch.Size([3, 128, 128])
+Numel: 	49152
+Max: 	759.0
+AMax: 	759.0
+Min: 	-552.5
+Mean: 	1.208984375
+Std: 	150.125
+Norm: 	33285.15597491338
+
+Statistics of sparse_dqkv:
+Shape: 	torch.Size([3, 128, 128])
+Numel: 	49152
+Max: 	758.5
+AMax: 	758.5
+Min: 	-552.0
+Mean: 	1.203125
+Std: 	150.125
+Norm: 	33271.64994968327
+
+Statistics of error between dqkv and sparse_dqkv:
+Shape: 	torch.Size([3, 128, 128])
+Numel: 	49152
+Max: 	0.5
+AMax: 	0.5
+Min: 	-0.5
+Mean: 	0.00653839111328125
+Std: 	0.1080322265625
+Norm: 	24.00053141690643
+
+===================================================================
+

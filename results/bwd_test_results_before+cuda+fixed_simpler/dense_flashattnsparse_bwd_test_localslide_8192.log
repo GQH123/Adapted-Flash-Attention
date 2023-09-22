@@ -1,0 +1,66 @@
+doing backward on sparse blocks
+Statistics of dqkv:
+Shape: 	torch.Size([3, 128, 128])
+Numel: 	49152
+Max: 	291.5
+AMax: 	291.5
+Min: 	-249.5
+Mean: 	0.59228515625
+Std: 	59.4375
+Norm: 	13178.913234212128
+
+Statistics of sparse_dqkv:
+Shape: 	torch.Size([3, 128, 128])
+Numel: 	49152
+Max: 	291.5
+AMax: 	291.5
+Min: 	-249.5
+Mean: 	0.591796875
+Std: 	59.4375
+Norm: 	13178.648467282805
+
+Statistics of error between dqkv and sparse_dqkv:
+Shape: 	torch.Size([3, 128, 128])
+Numel: 	49152
+Max: 	0.125
+AMax: 	0.125
+Min: 	-0.0625
+Mean: 	0.0006761550903320312
+Std: 	0.0127716064453125
+Norm: 	2.836134143725666
+
+===================================================================
+
+doing backward on sparse blocks
+Statistics of dqkv:
+Shape: 	torch.Size([3, 128, 128])
+Numel: 	49152
+Max: 	211.5
+AMax: 	211.5
+Min: 	-167.0
+Mean: 	3.431640625
+Std: 	51.6875
+Norm: 	11482.03339514998
+
+Statistics of sparse_dqkv:
+Shape: 	torch.Size([3, 128, 128])
+Numel: 	49152
+Max: 	211.5
+AMax: 	211.5
+Min: 	-167.0
+Mean: 	3.431640625
+Std: 	51.6875
+Norm: 	11482.420500884946
+
+Statistics of error between dqkv and sparse_dqkv:
+Shape: 	torch.Size([3, 128, 128])
+Numel: 	49152
+Max: 	0.125
+AMax: 	0.125
+Min: 	-0.0625
+Mean: 	0.0006279945373535156
+Std: 	0.01227569580078125
+Norm: 	2.725776047565149
+
+===================================================================
+

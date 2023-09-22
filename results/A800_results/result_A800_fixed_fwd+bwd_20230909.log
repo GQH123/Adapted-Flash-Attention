@@ -1,0 +1,244 @@
+Sequence Length: 2048
+ - Forward pass
+torch.Size([20480, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([20480, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([20480, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([20480, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([20480, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([20480, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([20480, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([20480, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([20480, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([20480, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([20480, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([20480, 3, 12, 64])
+Forward and backward executed successfully
+<torch.utils.benchmark.utils.common.Measurement object at 0x14baeaa32830>
+fn(*inputs, **kwinputs)
+  3.08 ms
+  1 measurement, 10 runs , 64 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x14baeaa32830>
+fn(*inputs, **kwinputs)
+  3.08 ms
+  1 measurement, 10 runs , 64 threads
+
+Sequence Length: 4096
+ - Forward pass
+torch.Size([40960, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([40960, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([40960, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([40960, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([40960, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([40960, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([40960, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([40960, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([40960, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([40960, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([40960, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([40960, 3, 12, 64])
+Forward and backward executed successfully
+<torch.utils.benchmark.utils.common.Measurement object at 0x14baea9d1ff0>
+fn(*inputs, **kwinputs)
+  9.44 ms
+  1 measurement, 10 runs , 64 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x14baea9d1ff0>
+fn(*inputs, **kwinputs)
+  9.44 ms
+  1 measurement, 10 runs , 64 threads
+
+Sequence Length: 8192
+ - Forward pass
+torch.Size([81920, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([81920, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([81920, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([81920, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([81920, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([81920, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([81920, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([81920, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([81920, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([81920, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([81920, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([81920, 3, 12, 64])
+Forward and backward executed successfully
+<torch.utils.benchmark.utils.common.Measurement object at 0x14baea9d34f0>
+fn(*inputs, **kwinputs)
+  29.88 ms
+  1 measurement, 10 runs , 64 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x14baea9d34f0>
+fn(*inputs, **kwinputs)
+  29.88 ms
+  1 measurement, 10 runs , 64 threads
+
+Sequence Length: 16384
+ - Forward pass
+torch.Size([163840, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([163840, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([163840, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([163840, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([163840, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([163840, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([163840, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([163840, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([163840, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([163840, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([163840, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([163840, 3, 12, 64])
+Forward and backward executed successfully
+<torch.utils.benchmark.utils.common.Measurement object at 0x14baea9d3c40>
+fn(*inputs, **kwinputs)
+  107.24 ms
+  1 measurement, 10 runs , 64 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x14baea9d3c40>
+fn(*inputs, **kwinputs)
+  107.24 ms
+  1 measurement, 10 runs , 64 threads
+
+Sequence Length: 32768
+ - Forward pass
+torch.Size([327680, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([327680, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([327680, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([327680, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([327680, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([327680, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([327680, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([327680, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([327680, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([327680, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([327680, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([327680, 3, 12, 64])
+Forward and backward executed successfully
+<torch.utils.benchmark.utils.common.Measurement object at 0x14baea9d1f60>
+fn(*inputs, **kwinputs)
+  417.97 ms
+  1 measurement, 10 runs , 64 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x14baea9d1f60>
+fn(*inputs, **kwinputs)
+  417.97 ms
+  1 measurement, 10 runs , 64 threads
+
+Sequence Length: 65536
+ - Forward pass
+torch.Size([655360, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([655360, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([655360, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([655360, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([655360, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([655360, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([655360, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([655360, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([655360, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([655360, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([655360, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([655360, 3, 12, 64])
+Forward and backward executed successfully
+<torch.utils.benchmark.utils.common.Measurement object at 0x14baea9d2e90>
+fn(*inputs, **kwinputs)
+  1.65 s
+  1 measurement, 10 runs , 64 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x14baea9d2e90>
+fn(*inputs, **kwinputs)
+  1.65 s
+  1 measurement, 10 runs , 64 threads
+
+Sequence Length: 131072
+ - Forward pass
+torch.Size([1310720, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([1310720, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([1310720, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([1310720, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([1310720, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([1310720, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([1310720, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([1310720, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([1310720, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([1310720, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([1310720, 3, 12, 64])
+Forward and backward executed successfully
+torch.Size([1310720, 3, 12, 64])
+Forward and backward executed successfully
+<torch.utils.benchmark.utils.common.Measurement object at 0x14baea9d39a0>
+fn(*inputs, **kwinputs)
+  6.57 s
+  1 measurement, 10 runs , 64 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x14baea9d39a0>
+fn(*inputs, **kwinputs)
+  6.57 s
+  1 measurement, 10 runs , 64 threads

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/remote-home/qhgao/Workspace/Projects/MainUniverse/artworks/flash-attention-modify/src/flash_blocksparse_attn_interface_test.py", line 568, in <module>
+    test_blocksparse_dense_match(seqlen, sparsity_config)
+  File "/remote-home/qhgao/Workspace/Projects/MainUniverse/artworks/flash-attention-modify/src/flash_blocksparse_attn_interface_test.py", line 472, in test_blocksparse_dense_match
+    dense_values.sum().backward(retain_graph=True)
+  File "/remote-home/qhgao/Workspace/Applications/anaconda3/envs/share_py310/lib/python3.10/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/remote-home/qhgao/Workspace/Applications/anaconda3/envs/share_py310/lib/python3.10/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 16.00 GiB (GPU 1; 79.32 GiB total capacity; 50.66 GiB already allocated; 13.06 GiB free; 65.05 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+[OutOfMemoryError] CUDA out of memory. Tried to allocate 16.00 GiB (GPU 1; 79.32 GiB total capacity; 50.66 GiB already allocated; 13.06 GiB free; 65.05 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

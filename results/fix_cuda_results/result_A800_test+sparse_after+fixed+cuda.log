@@ -1,0 +1,54 @@
+Statistics of dense:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151273.25633518305
+
+Statistics of flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    3968.0
+AMax:   3968.0
+Min:    127.375
+Mean:   2048.0
+Std:    1180.0
+Norm:   151272.59909844876
+
+Statistics of error between dense and flash_attn_sparse:
+Shape:  torch.Size([1, 256, 1, 16])
+Numel:  4096
+Max:    1.0
+AMax:   1.0
+Min:    0.0
+Mean:   0.016357421875
+Std:    0.12469482421875
+Norm:   8.04673846971554
+
+===================================================================
+
+tensor([[[[0.0000, 0.2500, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.0000, 0.2500, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.0000, 0.2500, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         ...,
+
+         [[0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]]]],
+       device='cuda:6', dtype=torch.float16)
+Traceback (most recent call last):
+  File "/remote-home/qhgao/Workspace/Applications/anaconda3/envs/share_py310/lib/python3.10/site-packages/flash_attn/flash_blocksparse_attn_interface_by_codedecde.py", line 402, in <module>
+    test_blocksparse_dense_match()
+  File "/remote-home/qhgao/Workspace/Applications/anaconda3/envs/share_py310/lib/python3.10/site-packages/flash_attn/flash_blocksparse_attn_interface_by_codedecde.py", line 362, in test_blocksparse_dense_match
+    test_dense_flashattnsparse()
+  File "/remote-home/qhgao/Workspace/Applications/anaconda3/envs/share_py310/lib/python3.10/site-packages/flash_attn/flash_blocksparse_attn_interface_by_codedecde.py", line 359, in test_dense_flashattnsparse
+    assert torch.allclose(dense_values, flash_attn_sparse_values)
+AssertionError

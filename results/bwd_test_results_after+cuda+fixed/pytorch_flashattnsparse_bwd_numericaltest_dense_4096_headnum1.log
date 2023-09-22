@@ -1,0 +1,63 @@
+doing backward on sparse blocks
+Statistics of pytorch_dqkv:
+Shape: 	torch.Size([3, 128, 128])
+Numel: 	49152
+Max: 	234.625
+AMax: 	234.625
+Min: 	-163.875
+Mean: 	0.6845703125
+Std: 	48.71875
+Norm: 	10804.16274843217
+
+Statistics of flashattnsparse_dqkv:
+Shape: 	torch.Size([3, 128, 128])
+Numel: 	49152
+Max: 	234.625
+AMax: 	234.625
+Min: 	-163.875
+Mean: 	0.68603515625
+Std: 	48.71875
+Norm: 	10804.385170261885
+
+Statistics of error between pytorch_dqkv and flashattnsparse_dqkv:
+Shape: 	torch.Size([3, 128, 128])
+Numel: 	49152
+Max: 	0.125
+AMax: 	0.125
+Min: 	-0.125
+Mean: 	-0.00139617919921875
+Std: 	0.0233917236328125
+Norm: 	5.196148498287269
+
+===================================================================
+
+Statistics of error_dq:
+Shape: 	torch.Size([128, 128])
+Numel: 	16384
+Max: 	0.00390625
+AMax: 	0.00390625
+Min: 	-0.00390625
+Mean: 	-4.0531158447265625e-06
+Std: 	0.0007276535034179688
+Norm: 	0.09311750279638017
+
+Statistics of error_dk:
+Shape: 	torch.Size([128, 128])
+Numel: 	16384
+Max: 	0.00537109375
+AMax: 	0.00537109375
+Min: 	-0.00390625
+Mean: 	9.238719940185547e-06
+Std: 	0.0008988380432128906
+Norm: 	0.11502384795288023
+
+Statistics of error_dv:
+Shape: 	torch.Size([128, 128])
+Numel: 	16384
+Max: 	0.125
+AMax: 	0.125
+Min: 	-0.125
+Mean: 	-0.004192352294921875
+Std: 	0.040374755859375
+Norm: 	5.194040610288692
+

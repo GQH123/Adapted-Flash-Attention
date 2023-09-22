@@ -1,0 +1,188 @@
+/remote-home/qhgao/Workspace/Projects/MainUniverse/artworks/flash-attention-modify
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+bin /remote-home/qhgao/Workspace/Applications/anaconda3/envs/share_py310/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda117.so
+CUDA SETUP: CUDA runtime path found: /usr/local/cuda-11.7/lib64/libcudart.so.11.0
+CUDA SETUP: Highest compute capability among GPUs detected: 8.6
+CUDA SETUP: Detected CUDA version 117
+CUDA SETUP: Loading binary /remote-home/qhgao/Workspace/Applications/anaconda3/envs/share_py310/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda117.so...
+
+GPTLMHeadModel(
+  (transformer): GPTModel(
+    (embeddings): GPT2Embeddings(
+      (word_embeddings): Embedding(32000, 768)
+    )
+    (layers): ModuleList(
+      (0-11): 12 x Block(
+        (mixer): FlashBlocksparseMHA(
+          (Wqkv): Linear(in_features=768, out_features=2304, bias=True)
+          (inner_attn): FlashBlocksparseAttention()
+          (out_proj): Linear(in_features=768, out_features=768, bias=True)
+        )
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (drop_path1): StochasticDepth(p=0.0, mode=row)
+        (norm1): RMSNorm()
+        (mlp): GatedMlp(
+          (fc1): Linear(in_features=768, out_features=4096, bias=False)
+          (fc2): Linear(in_features=2048, out_features=768, bias=False)
+        )
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path2): StochasticDepth(p=0.0, mode=row)
+        (norm2): RMSNorm()
+      )
+    )
+    (drop_f): Dropout(p=0.0, inplace=False)
+    (ln_f): RMSNorm()
+  )
+  (lm_head): Linear(in_features=768, out_features=32000, bias=False)
+)
+Number of parameters: 134142720
+
+
+2048
+Llama Generate - Forward pass
+Prompt processing + decoding time: 1037ms
+Prompt processing + decoding time: 114ms
+Prompt processing + decoding time: 110ms
+Prompt processing + decoding time: 110ms
+Prompt processing + decoding time: 112ms
+Prompt processing + decoding time: 109ms
+Prompt processing + decoding time: 109ms
+Prompt processing + decoding time: 109ms
+Prompt processing + decoding time: 109ms
+Prompt processing + decoding time: 109ms
+Prompt processing + decoding time: 109ms
+Prompt processing + decoding time: 109ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f6ec173bb80>
+fn(*inputs, **kwinputs)
+  109.57 ms
+  1 measurement, 10 runs , 14 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f6ec173bb80>
+fn(*inputs, **kwinputs)
+  109.57 ms
+  1 measurement, 10 runs , 14 threads
+
+4096
+Llama Generate - Forward pass
+Prompt processing + decoding time: 305ms
+Prompt processing + decoding time: 282ms
+Prompt processing + decoding time: 278ms
+Prompt processing + decoding time: 280ms
+Prompt processing + decoding time: 279ms
+Prompt processing + decoding time: 279ms
+Prompt processing + decoding time: 279ms
+Prompt processing + decoding time: 279ms
+Prompt processing + decoding time: 279ms
+Prompt processing + decoding time: 279ms
+Prompt processing + decoding time: 279ms
+Prompt processing + decoding time: 279ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f6ea0ae8460>
+fn(*inputs, **kwinputs)
+  279.02 ms
+  1 measurement, 10 runs , 14 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f6ea0ae8460>
+fn(*inputs, **kwinputs)
+  279.02 ms
+  1 measurement, 10 runs , 14 threads
+
+8192
+Llama Generate - Forward pass
+Prompt processing + decoding time: 859ms
+Prompt processing + decoding time: 848ms
+Prompt processing + decoding time: 849ms
+Prompt processing + decoding time: 848ms
+Prompt processing + decoding time: 850ms
+Prompt processing + decoding time: 849ms
+Prompt processing + decoding time: 849ms
+Prompt processing + decoding time: 851ms
+Prompt processing + decoding time: 852ms
+Prompt processing + decoding time: 852ms
+Prompt processing + decoding time: 852ms
+Prompt processing + decoding time: 853ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f6ea0ae83d0>
+fn(*inputs, **kwinputs)
+  850.53 ms
+  1 measurement, 10 runs , 14 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f6ea0ae83d0>
+fn(*inputs, **kwinputs)
+  850.53 ms
+  1 measurement, 10 runs , 14 threads
+
+16384
+Llama Generate - Forward pass
+Prompt processing + decoding time: 2897ms
+Prompt processing + decoding time: 2894ms
+Prompt processing + decoding time: 2895ms
+Prompt processing + decoding time: 2899ms
+Prompt processing + decoding time: 2902ms
+Prompt processing + decoding time: 2906ms
+Prompt processing + decoding time: 2908ms
+Prompt processing + decoding time: 2910ms
+Prompt processing + decoding time: 2912ms
+Prompt processing + decoding time: 2913ms
+Prompt processing + decoding time: 2916ms
+Prompt processing + decoding time: 2918ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f6ea0ae9060>
+fn(*inputs, **kwinputs)
+  2.91 s
+  1 measurement, 10 runs , 14 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f6ea0ae9060>
+fn(*inputs, **kwinputs)
+  2.91 s
+  1 measurement, 10 runs , 14 threads
+
+32768
+Llama Generate - Forward pass
+Prompt processing + decoding time: 10986ms
+Prompt processing + decoding time: 10653ms
+Prompt processing + decoding time: 10849ms
+Prompt processing + decoding time: 10673ms
+Prompt processing + decoding time: 10677ms
+Prompt processing + decoding time: 10689ms
+Prompt processing + decoding time: 10696ms
+Prompt processing + decoding time: 10715ms
+Prompt processing + decoding time: 10746ms
+Prompt processing + decoding time: 10748ms
+Prompt processing + decoding time: 10751ms
+Prompt processing + decoding time: 10756ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f6ea0ae8e80>
+fn(*inputs, **kwinputs)
+  10.73 s
+  1 measurement, 10 runs , 14 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f6ea0ae8e80>
+fn(*inputs, **kwinputs)
+  10.73 s
+  1 measurement, 10 runs , 14 threads
+
+65536
+Llama Generate - Forward pass
+Prompt processing + decoding time: 41155ms
+Prompt processing + decoding time: 41089ms
+Prompt processing + decoding time: 41169ms
+Prompt processing + decoding time: 41187ms
+Prompt processing + decoding time: 41211ms
+Prompt processing + decoding time: 41220ms
+Prompt processing + decoding time: 41212ms
+Prompt processing + decoding time: 41210ms
+Prompt processing + decoding time: 41214ms
+Prompt processing + decoding time: 41221ms
+Prompt processing + decoding time: 41219ms
+Prompt processing + decoding time: 41222ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f6ea0b7b5e0>
+fn(*inputs, **kwinputs)
+  41.21 s
+  1 measurement, 10 runs , 14 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f6ea0b7b5e0>
+fn(*inputs, **kwinputs)
+  41.21 s
+  1 measurement, 10 runs , 14 threads
+
+131072
+Llama Generate - Forward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 5.00 GiB (GPU 0; 23.69 GiB total capacity; 18.03 GiB already allocated; 4.37 GiB free; 18.05 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

@@ -1,0 +1,358 @@
+/remote-home/qhgao/Workspace/Projects/MainUniverse/artworks/flash-attention-modify
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+bin /remote-home/qhgao/Workspace/Applications/anaconda3/envs/share_py310/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda117.so
+CUDA SETUP: CUDA runtime path found: /usr/local/cuda-11.7/lib64/libcudart.so
+CUDA SETUP: Highest compute capability among GPUs detected: 8.6
+CUDA SETUP: Detected CUDA version 117
+CUDA SETUP: Loading binary /remote-home/qhgao/Workspace/Applications/anaconda3/envs/share_py310/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda117.so...
+2048
+GPTLMHeadModel(
+  (transformer): GPTModel(
+    (embeddings): GPT2Embeddings(
+      (word_embeddings): Embedding(32000, 768)
+    )
+    (layers): ModuleList(
+      (0-11): 12 x Block(
+        (mixer): FlashBlocksparseMHA(
+          (Wqkv): Linear(in_features=768, out_features=2304, bias=True)
+          (inner_attn): FlashBlocksparseAttention()
+          (out_proj): Linear(in_features=768, out_features=768, bias=True)
+        )
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (drop_path1): StochasticDepth(p=0.0, mode=row)
+        (norm1): RMSNorm()
+        (mlp): GatedMlp(
+          (fc1): Linear(in_features=768, out_features=4096, bias=False)
+          (fc2): Linear(in_features=2048, out_features=768, bias=False)
+        )
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path2): StochasticDepth(p=0.0, mode=row)
+        (norm2): RMSNorm()
+      )
+    )
+    (drop_f): Dropout(p=0.0, inplace=False)
+    (ln_f): RMSNorm()
+  )
+  (lm_head): Linear(in_features=768, out_features=32000, bias=False)
+)
+Number of parameters: 134142720
+Llama Generate - Forward pass
+Prompt processing + decoding time: 996ms
+Prompt processing + decoding time: 77ms
+Prompt processing + decoding time: 75ms
+Prompt processing + decoding time: 71ms
+Prompt processing + decoding time: 70ms
+Prompt processing + decoding time: 71ms
+Prompt processing + decoding time: 72ms
+Prompt processing + decoding time: 71ms
+Prompt processing + decoding time: 71ms
+Prompt processing + decoding time: 71ms
+Prompt processing + decoding time: 71ms
+Prompt processing + decoding time: 70ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f7b286decb0>
+fn(*inputs, **kwinputs)
+  71.37 ms
+  1 measurement, 10 runs , 14 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f7b286decb0>
+fn(*inputs, **kwinputs)
+  71.37 ms
+  1 measurement, 10 runs , 14 threads
+4096
+GPTLMHeadModel(
+  (transformer): GPTModel(
+    (embeddings): GPT2Embeddings(
+      (word_embeddings): Embedding(32000, 768)
+    )
+    (layers): ModuleList(
+      (0-11): 12 x Block(
+        (mixer): FlashBlocksparseMHA(
+          (Wqkv): Linear(in_features=768, out_features=2304, bias=True)
+          (inner_attn): FlashBlocksparseAttention()
+          (out_proj): Linear(in_features=768, out_features=768, bias=True)
+        )
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (drop_path1): StochasticDepth(p=0.0, mode=row)
+        (norm1): RMSNorm()
+        (mlp): GatedMlp(
+          (fc1): Linear(in_features=768, out_features=4096, bias=False)
+          (fc2): Linear(in_features=2048, out_features=768, bias=False)
+        )
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path2): StochasticDepth(p=0.0, mode=row)
+        (norm2): RMSNorm()
+      )
+    )
+    (drop_f): Dropout(p=0.0, inplace=False)
+    (ln_f): RMSNorm()
+  )
+  (lm_head): Linear(in_features=768, out_features=32000, bias=False)
+)
+Number of parameters: 134142720
+Llama Generate - Forward pass
+Prompt processing + decoding time: 145ms
+Prompt processing + decoding time: 138ms
+Prompt processing + decoding time: 131ms
+Prompt processing + decoding time: 130ms
+Prompt processing + decoding time: 130ms
+Prompt processing + decoding time: 131ms
+Prompt processing + decoding time: 130ms
+Prompt processing + decoding time: 134ms
+Prompt processing + decoding time: 131ms
+Prompt processing + decoding time: 133ms
+Prompt processing + decoding time: 134ms
+Prompt processing + decoding time: 131ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f7b09228370>
+fn(*inputs, **kwinputs)
+  131.74 ms
+  1 measurement, 10 runs , 14 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f7b09228370>
+fn(*inputs, **kwinputs)
+  131.74 ms
+  1 measurement, 10 runs , 14 threads
+8192
+GPTLMHeadModel(
+  (transformer): GPTModel(
+    (embeddings): GPT2Embeddings(
+      (word_embeddings): Embedding(32000, 768)
+    )
+    (layers): ModuleList(
+      (0-11): 12 x Block(
+        (mixer): FlashBlocksparseMHA(
+          (Wqkv): Linear(in_features=768, out_features=2304, bias=True)
+          (inner_attn): FlashBlocksparseAttention()
+          (out_proj): Linear(in_features=768, out_features=768, bias=True)
+        )
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (drop_path1): StochasticDepth(p=0.0, mode=row)
+        (norm1): RMSNorm()
+        (mlp): GatedMlp(
+          (fc1): Linear(in_features=768, out_features=4096, bias=False)
+          (fc2): Linear(in_features=2048, out_features=768, bias=False)
+        )
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path2): StochasticDepth(p=0.0, mode=row)
+        (norm2): RMSNorm()
+      )
+    )
+    (drop_f): Dropout(p=0.0, inplace=False)
+    (ln_f): RMSNorm()
+  )
+  (lm_head): Linear(in_features=768, out_features=32000, bias=False)
+)
+Number of parameters: 134142720
+Llama Generate - Forward pass
+Prompt processing + decoding time: 273ms
+Prompt processing + decoding time: 254ms
+Prompt processing + decoding time: 251ms
+Prompt processing + decoding time: 251ms
+Prompt processing + decoding time: 251ms
+Prompt processing + decoding time: 253ms
+Prompt processing + decoding time: 252ms
+Prompt processing + decoding time: 251ms
+Prompt processing + decoding time: 251ms
+Prompt processing + decoding time: 252ms
+Prompt processing + decoding time: 252ms
+Prompt processing + decoding time: 251ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f7b092283a0>
+fn(*inputs, **kwinputs)
+  251.66 ms
+  1 measurement, 10 runs , 14 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f7b092283a0>
+fn(*inputs, **kwinputs)
+  251.66 ms
+  1 measurement, 10 runs , 14 threads
+16384
+GPTLMHeadModel(
+  (transformer): GPTModel(
+    (embeddings): GPT2Embeddings(
+      (word_embeddings): Embedding(32000, 768)
+    )
+    (layers): ModuleList(
+      (0-11): 12 x Block(
+        (mixer): FlashBlocksparseMHA(
+          (Wqkv): Linear(in_features=768, out_features=2304, bias=True)
+          (inner_attn): FlashBlocksparseAttention()
+          (out_proj): Linear(in_features=768, out_features=768, bias=True)
+        )
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (drop_path1): StochasticDepth(p=0.0, mode=row)
+        (norm1): RMSNorm()
+        (mlp): GatedMlp(
+          (fc1): Linear(in_features=768, out_features=4096, bias=False)
+          (fc2): Linear(in_features=2048, out_features=768, bias=False)
+        )
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path2): StochasticDepth(p=0.0, mode=row)
+        (norm2): RMSNorm()
+      )
+    )
+    (drop_f): Dropout(p=0.0, inplace=False)
+    (ln_f): RMSNorm()
+  )
+  (lm_head): Linear(in_features=768, out_features=32000, bias=False)
+)
+Number of parameters: 134142720
+Llama Generate - Forward pass
+Prompt processing + decoding time: 507ms
+Prompt processing + decoding time: 494ms
+Prompt processing + decoding time: 494ms
+Prompt processing + decoding time: 710ms
+Prompt processing + decoding time: 494ms
+Prompt processing + decoding time: 493ms
+Prompt processing + decoding time: 491ms
+Prompt processing + decoding time: 491ms
+Prompt processing + decoding time: 830ms
+Prompt processing + decoding time: 491ms
+Prompt processing + decoding time: 490ms
+Prompt processing + decoding time: 492ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f7b092295a0>
+fn(*inputs, **kwinputs)
+  547.82 ms
+  1 measurement, 10 runs , 14 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f7b092295a0>
+fn(*inputs, **kwinputs)
+  547.82 ms
+  1 measurement, 10 runs , 14 threads
+32768
+GPTLMHeadModel(
+  (transformer): GPTModel(
+    (embeddings): GPT2Embeddings(
+      (word_embeddings): Embedding(32000, 768)
+    )
+    (layers): ModuleList(
+      (0-11): 12 x Block(
+        (mixer): FlashBlocksparseMHA(
+          (Wqkv): Linear(in_features=768, out_features=2304, bias=True)
+          (inner_attn): FlashBlocksparseAttention()
+          (out_proj): Linear(in_features=768, out_features=768, bias=True)
+        )
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (drop_path1): StochasticDepth(p=0.0, mode=row)
+        (norm1): RMSNorm()
+        (mlp): GatedMlp(
+          (fc1): Linear(in_features=768, out_features=4096, bias=False)
+          (fc2): Linear(in_features=2048, out_features=768, bias=False)
+        )
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path2): StochasticDepth(p=0.0, mode=row)
+        (norm2): RMSNorm()
+      )
+    )
+    (drop_f): Dropout(p=0.0, inplace=False)
+    (ln_f): RMSNorm()
+  )
+  (lm_head): Linear(in_features=768, out_features=32000, bias=False)
+)
+Number of parameters: 134142720
+Llama Generate - Forward pass
+Prompt processing + decoding time: 4432ms
+Prompt processing + decoding time: 977ms
+Prompt processing + decoding time: 1282ms
+Prompt processing + decoding time: 980ms
+Prompt processing + decoding time: 979ms
+Prompt processing + decoding time: 979ms
+Prompt processing + decoding time: 979ms
+Prompt processing + decoding time: 979ms
+Prompt processing + decoding time: 980ms
+Prompt processing + decoding time: 979ms
+Prompt processing + decoding time: 981ms
+Prompt processing + decoding time: 983ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f7b092296c0>
+fn(*inputs, **kwinputs)
+  1.01 s
+  1 measurement, 10 runs , 14 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f7b092296c0>
+fn(*inputs, **kwinputs)
+  1.01 s
+  1 measurement, 10 runs , 14 threads
+65536
+GPTLMHeadModel(
+  (transformer): GPTModel(
+    (embeddings): GPT2Embeddings(
+      (word_embeddings): Embedding(32000, 768)
+    )
+    (layers): ModuleList(
+      (0-11): 12 x Block(
+        (mixer): FlashBlocksparseMHA(
+          (Wqkv): Linear(in_features=768, out_features=2304, bias=True)
+          (inner_attn): FlashBlocksparseAttention()
+          (out_proj): Linear(in_features=768, out_features=768, bias=True)
+        )
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (drop_path1): StochasticDepth(p=0.0, mode=row)
+        (norm1): RMSNorm()
+        (mlp): GatedMlp(
+          (fc1): Linear(in_features=768, out_features=4096, bias=False)
+          (fc2): Linear(in_features=2048, out_features=768, bias=False)
+        )
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path2): StochasticDepth(p=0.0, mode=row)
+        (norm2): RMSNorm()
+      )
+    )
+    (drop_f): Dropout(p=0.0, inplace=False)
+    (ln_f): RMSNorm()
+  )
+  (lm_head): Linear(in_features=768, out_features=32000, bias=False)
+)
+Number of parameters: 134142720
+Llama Generate - Forward pass
+Prompt processing + decoding time: 2293ms
+Prompt processing + decoding time: 1970ms
+Prompt processing + decoding time: 1970ms
+Prompt processing + decoding time: 1972ms
+Prompt processing + decoding time: 1978ms
+Prompt processing + decoding time: 1978ms
+Prompt processing + decoding time: 1977ms
+Prompt processing + decoding time: 2689ms
+Prompt processing + decoding time: 1979ms
+Prompt processing + decoding time: 1979ms
+Prompt processing + decoding time: 1983ms
+Prompt processing + decoding time: 1982ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f7b092bb550>
+fn(*inputs, **kwinputs)
+  2.05 s
+  1 measurement, 10 runs , 14 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x7f7b092bb550>
+fn(*inputs, **kwinputs)
+  2.05 s
+  1 measurement, 10 runs , 14 threads
+131072
+GPTLMHeadModel(
+  (transformer): GPTModel(
+    (embeddings): GPT2Embeddings(
+      (word_embeddings): Embedding(32000, 768)
+    )
+    (layers): ModuleList(
+      (0-11): 12 x Block(
+        (mixer): FlashBlocksparseMHA(
+          (Wqkv): Linear(in_features=768, out_features=2304, bias=True)
+          (inner_attn): FlashBlocksparseAttention()
+          (out_proj): Linear(in_features=768, out_features=768, bias=True)
+        )
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (drop_path1): StochasticDepth(p=0.0, mode=row)
+        (norm1): RMSNorm()
+        (mlp): GatedMlp(
+          (fc1): Linear(in_features=768, out_features=4096, bias=False)
+          (fc2): Linear(in_features=2048, out_features=768, bias=False)
+        )
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path2): StochasticDepth(p=0.0, mode=row)
+        (norm2): RMSNorm()
+      )
+    )
+    (drop_f): Dropout(p=0.0, inplace=False)
+    (ln_f): RMSNorm()
+  )
+  (lm_head): Linear(in_features=768, out_features=32000, bias=False)
+)
+Number of parameters: 134142720
+Llama Generate - Forward pass

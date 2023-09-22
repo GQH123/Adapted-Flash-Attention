@@ -1,0 +1,177 @@
+(share_py310) qhgao@slurmctld:/remote-home/qhgao/Workspace/Projects/MainUniverse/artworks/flash-attention-modify/src$ python flash_blocksparse_attn_interface_test.py 
+doing backward on sparse blocks
+Statistics of dqkv:
+Shape:  torch.Size([3, 128, 128])
+Numel:  49152
+Max:    2088.0
+AMax:   2188.0
+Min:    -2188.0
+Mean:   3.458984375
+Std:    514.5
+Norm:   114101.95489069226
+
+Statistics of sparse_dqkv:
+Shape:  torch.Size([3, 128, 128])
+Numel:  49152
+Max:    2088.0
+AMax:   2188.0
+Min:    -2188.0
+Mean:   3.833984375
+Std:    522.0
+Norm:   115785.13609701331
+
+Statistics of error between dqkv and sparse_dqkv:
+Shape:  torch.Size([3, 128, 128])
+Numel:  49152
+Max:    817.5
+AMax:   1085.0
+Min:    -1085.0
+Mean:   -0.3759765625
+Std:    80.375
+Norm:   17818.6914056277
+
+finished test
+(share_py310) qhgao@slurmctld:/remote-home/qhgao/Workspace/Projects/MainUniverse/artworks/flash-attention-modify/src$ python flash_blocksparse_attn_interface_test.py 
+doing backward on sparse blocks
+Statistics of dqkv:
+Shape:  torch.Size([3, 128, 128])
+Numel:  49152
+Max:    2854.0
+AMax:   2854.0
+Min:    -2394.0
+Mean:   -5.5703125
+Std:    568.0
+Norm:   125946.78048290074
+
+Statistics of sparse_dqkv:
+Shape:  torch.Size([3, 128, 128])
+Numel:  49152
+Max:    2854.0
+AMax:   2854.0
+Min:    -2394.0
+Mean:   -5.1484375
+Std:    575.5
+Norm:   127593.6078028529
+
+Statistics of error between dqkv and sparse_dqkv:
+Shape:  torch.Size([3, 128, 128])
+Numel:  49152
+Max:    774.5
+AMax:   856.0
+Min:    -856.0
+Mean:   -0.422607421875
+Std:    84.375
+Norm:   18702.739193216417
+
+===================================================================
+
+tensor([[ -168.2500,  -720.5000,   409.0000,  ..., -1213.0000,   711.5000,
+          -858.0000],
+        [ -163.6250,  -705.0000,   426.2500,  ..., -1201.0000,   716.0000,
+          -878.0000],
+        [ -147.1250,  -685.5000,   434.0000,  ..., -1149.0000,   730.5000,
+          -836.0000],
+        ...,
+        [ -139.7500,  -713.5000,   407.5000,  ..., -1189.0000,   715.5000,
+          -832.0000],
+        [ -174.8750,  -698.5000,   412.2500,  ..., -1179.0000,   729.0000,
+          -874.0000],
+        [ -182.0000,  -702.5000,   406.5000,  ..., -1158.0000,   720.5000,
+          -864.0000]], device='cuda:1', dtype=torch.float16)
+finished test
+(share_py310) qhgao@slurmctld:/remote-home/qhgao/Workspace/Projects/MainUniverse/artworks/flash-attention-modify/src$ python flash_blocksparse_attn_interface_test.py 
+doing backward on sparse blocks
+Statistics of dqkv:
+Shape:  torch.Size([3, 128, 128])
+Numel:  49152
+Max:    2454.0
+AMax:   2454.0
+Min:    -2060.0
+Mean:   -19.84375
+Std:    522.5
+Norm:   115918.59452619574
+
+Statistics of sparse_dqkv:
+Shape:  torch.Size([3, 128, 128])
+Numel:  49152
+Max:    2454.0
+AMax:   2454.0
+Min:    -2060.0
+Mean:   -20.125
+Std:    532.0
+Norm:   118037.24666029781
+
+Statistics of error between dqkv and sparse_dqkv:
+Shape:  torch.Size([3, 128, 128])
+Numel:  49152
+Max:    879.5
+AMax:   879.5
+Min:    -778.0
+Mean:   0.29052734375
+Std:    92.25
+Norm:   20453.310550565115
+
+===================================================================
+
+tensor([[-175.0000,   33.6875,  129.0000,  ..., 1913.0000,  -79.9375,
+           59.7500],
+        [-257.0000,  189.5000,  437.0000,  ..., 2045.0000, -120.2500,
+          115.8750],
+        [ -39.6875,   76.5625,   80.6250,  ..., 1740.0000,  -48.3125,
+          241.7500],
+        ...,
+        [-201.5000,   49.3125,  247.1250,  ..., 1843.0000,   16.4375,
+          327.7500],
+        [-130.5000,  159.3750, -115.1250,  ..., 1878.0000, -304.5000,
+          107.0000],
+        [-122.8125,  437.5000,  291.5000,  ..., 2108.0000, -180.5000,
+          268.0000]], device='cuda:1', dtype=torch.float16)
+finished test
+(share_py310) qhgao@slurmctld:/remote-home/qhgao/Workspace/Projects/MainUniverse/artworks/flash-attention-modify/src$ python flash_blocksparse_attn_interface_test.py 
+doing backward on sparse blocks
+Statistics of dqkv:
+Shape:  torch.Size([3, 128, 128])
+Numel:  49152
+Max:    1890.0
+AMax:   2668.0
+Min:    -2668.0
+Mean:   -33.8125
+Std:    526.5
+Norm:   116937.37946632961
+
+Statistics of sparse_dqkv:
+Shape:  torch.Size([3, 128, 128])
+Numel:  49152
+Max:    1890.0
+AMax:   2668.0
+Min:    -2668.0
+Mean:   -34.65625
+Std:    540.5
+Norm:   120104.6466372639
+
+Statistics of error between dqkv and sparse_dqkv:
+Shape:  torch.Size([3, 128, 128])
+Numel:  49152
+Max:    1119.0
+AMax:   1119.0
+Min:    -990.0
+Mean:   0.8623046875
+Std:    113.875
+Norm:   25242.9834400763
+
+===================================================================
+
+tensor([[  -77.0000,   -19.0000,   204.7500,  ...,   -52.5625,  -106.3750,
+          -221.3750],
+        [    1.2812,   255.1250,    94.6250,  ...,    59.5000,   269.5000,
+          -354.0000],
+        [  145.1250,  -795.5000, -1208.0000,  ...,   610.0000,  -152.2500,
+          1109.0000],
+        ...,
+        [  250.5000,    30.3750,   295.5000,  ...,  -132.5000,   -26.8125,
+            92.8125],
+        [  163.0000,   195.6250,   301.2500,  ...,  -334.7500,    86.5000,
+          -287.0000],
+        [   48.5312,   382.7500,   362.5000,  ...,  -165.8750,    75.2500,
+          -442.5000]], device='cuda:1', dtype=torch.float16)
+finished test

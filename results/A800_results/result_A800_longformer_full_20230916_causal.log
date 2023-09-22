@@ -1,0 +1,405 @@
+loaded
+Setting CUDA_VISIBLE_DEVICES to: 2
+/remote-home/qhgao/Workspace/Projects/MainUniverse/artworks/flash-attention-modify
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+bin /remote-home/qhgao/Workspace/Applications/anaconda3/envs/share_py310/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda120.so
+/remote-home/qhgao/Workspace/Applications/anaconda3/envs/share_py310/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: /remote-home/qhgao/Workspace/Applications/anaconda3/envs/share_py310 did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
+  warn(msg)
+/remote-home/qhgao/Workspace/Applications/anaconda3/envs/share_py310/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/remote-home/qhgao/Workspace/Applications/anaconda3/envs/py39/lib/python3.9/site-packages/nvidia/cublas/lib'), PosixPath('/usr/local/cuda-11.7/lib64')}
+  warn(msg)
+CUDA SETUP: CUDA runtime path found: /usr/local/cuda-12.0/lib64/libcudart.so
+CUDA SETUP: Highest compute capability among GPUs detected: 8.0
+CUDA SETUP: Detected CUDA version 120
+CUDA SETUP: Loading binary /remote-home/qhgao/Workspace/Applications/anaconda3/envs/share_py310/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda120.so...
+2048
+config:
+ BSLongformerSparsityConfig
+'(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /hf-internal-testing/llama-tokenizer/resolve/main/tokenizer_config.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x154afc44d6f0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 4e64b164-c08d-4daa-83a3-1da8121fd6cd)')' thrown while requesting HEAD https://huggingface.co/hf-internal-testing/llama-tokenizer/resolve/main/tokenizer_config.json
+GPTLMHeadModel(
+  (transformer): GPTModel(
+    (embeddings): GPT2Embeddings(
+      (word_embeddings): Embedding(32000, 768)
+    )
+    (layers): ModuleList(
+      (0-11): 12 x Block(
+        (mixer): FlashBlocksparseMHA(
+          (Wqkv): Linear(in_features=768, out_features=2304, bias=True)
+          (inner_attn): FlashBlocksparseAttention()
+          (out_proj): Linear(in_features=768, out_features=768, bias=True)
+        )
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (drop_path1): StochasticDepth(p=0.0, mode=row)
+        (norm1): RMSNorm()
+        (mlp): GatedMlp(
+          (fc1): Linear(in_features=768, out_features=4096, bias=False)
+          (fc2): Linear(in_features=2048, out_features=768, bias=False)
+        )
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path2): StochasticDepth(p=0.0, mode=row)
+        (norm2): RMSNorm()
+      )
+    )
+    (drop_f): Dropout(p=0.0, inplace=False)
+    (ln_f): RMSNorm()
+  )
+  (lm_head): Linear(in_features=768, out_features=32000, bias=False)
+)
+Number of parameters: 134142720
+Llama Generate - Forward pass
+Prompt processing + decoding time: 3797ms
+Prompt processing + decoding time: 52ms
+Prompt processing + decoding time: 50ms
+Prompt processing + decoding time: 48ms
+Prompt processing + decoding time: 44ms
+Prompt processing + decoding time: 45ms
+Prompt processing + decoding time: 43ms
+Prompt processing + decoding time: 46ms
+Prompt processing + decoding time: 44ms
+Prompt processing + decoding time: 60ms
+Prompt processing + decoding time: 103ms
+Prompt processing + decoding time: 100ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x154ade7aa830>
+fn(*inputs, **kwinputs)
+  58.93 ms
+  1 measurement, 10 runs , 64 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x154ade7aa830>
+fn(*inputs, **kwinputs)
+  58.93 ms
+  1 measurement, 10 runs , 64 threads
+4096
+config:
+ BSLongformerSparsityConfig
+'(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /hf-internal-testing/llama-tokenizer/resolve/main/tokenizer_config.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x154ade7abca0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: d07d5e74-8974-475f-91ee-f27969e52009)')' thrown while requesting HEAD https://huggingface.co/hf-internal-testing/llama-tokenizer/resolve/main/tokenizer_config.json
+GPTLMHeadModel(
+  (transformer): GPTModel(
+    (embeddings): GPT2Embeddings(
+      (word_embeddings): Embedding(32000, 768)
+    )
+    (layers): ModuleList(
+      (0-11): 12 x Block(
+        (mixer): FlashBlocksparseMHA(
+          (Wqkv): Linear(in_features=768, out_features=2304, bias=True)
+          (inner_attn): FlashBlocksparseAttention()
+          (out_proj): Linear(in_features=768, out_features=768, bias=True)
+        )
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (drop_path1): StochasticDepth(p=0.0, mode=row)
+        (norm1): RMSNorm()
+        (mlp): GatedMlp(
+          (fc1): Linear(in_features=768, out_features=4096, bias=False)
+          (fc2): Linear(in_features=2048, out_features=768, bias=False)
+        )
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path2): StochasticDepth(p=0.0, mode=row)
+        (norm2): RMSNorm()
+      )
+    )
+    (drop_f): Dropout(p=0.0, inplace=False)
+    (ln_f): RMSNorm()
+  )
+  (lm_head): Linear(in_features=768, out_features=32000, bias=False)
+)
+Number of parameters: 134142720
+Llama Generate - Forward pass
+Prompt processing + decoding time: 198ms
+Prompt processing + decoding time: 87ms
+Prompt processing + decoding time: 87ms
+Prompt processing + decoding time: 78ms
+Prompt processing + decoding time: 77ms
+Prompt processing + decoding time: 77ms
+Prompt processing + decoding time: 89ms
+Prompt processing + decoding time: 81ms
+Prompt processing + decoding time: 80ms
+Prompt processing + decoding time: 78ms
+Prompt processing + decoding time: 109ms
+Prompt processing + decoding time: 84ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x154ade8243a0>
+fn(*inputs, **kwinputs)
+  84.47 ms
+  1 measurement, 10 runs , 64 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x154ade8243a0>
+fn(*inputs, **kwinputs)
+  84.47 ms
+  1 measurement, 10 runs , 64 threads
+8192
+config:
+ BSLongformerSparsityConfig
+'(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /hf-internal-testing/llama-tokenizer/resolve/main/tokenizer_config.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x154afc44ff70>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 10847c58-ac84-4985-ab8e-21b2cc7d7d54)')' thrown while requesting HEAD https://huggingface.co/hf-internal-testing/llama-tokenizer/resolve/main/tokenizer_config.json
+GPTLMHeadModel(
+  (transformer): GPTModel(
+    (embeddings): GPT2Embeddings(
+      (word_embeddings): Embedding(32000, 768)
+    )
+    (layers): ModuleList(
+      (0-11): 12 x Block(
+        (mixer): FlashBlocksparseMHA(
+          (Wqkv): Linear(in_features=768, out_features=2304, bias=True)
+          (inner_attn): FlashBlocksparseAttention()
+          (out_proj): Linear(in_features=768, out_features=768, bias=True)
+        )
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (drop_path1): StochasticDepth(p=0.0, mode=row)
+        (norm1): RMSNorm()
+        (mlp): GatedMlp(
+          (fc1): Linear(in_features=768, out_features=4096, bias=False)
+          (fc2): Linear(in_features=2048, out_features=768, bias=False)
+        )
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path2): StochasticDepth(p=0.0, mode=row)
+        (norm2): RMSNorm()
+      )
+    )
+    (drop_f): Dropout(p=0.0, inplace=False)
+    (ln_f): RMSNorm()
+  )
+  (lm_head): Linear(in_features=768, out_features=32000, bias=False)
+)
+Number of parameters: 134142720
+Llama Generate - Forward pass
+Prompt processing + decoding time: 1002ms
+Prompt processing + decoding time: 148ms
+Prompt processing + decoding time: 144ms
+Prompt processing + decoding time: 145ms
+Prompt processing + decoding time: 144ms
+Prompt processing + decoding time: 144ms
+Prompt processing + decoding time: 143ms
+Prompt processing + decoding time: 144ms
+Prompt processing + decoding time: 145ms
+Prompt processing + decoding time: 144ms
+Prompt processing + decoding time: 143ms
+Prompt processing + decoding time: 143ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x154ade826ec0>
+fn(*inputs, **kwinputs)
+  144.13 ms
+  1 measurement, 10 runs , 64 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x154ade826ec0>
+fn(*inputs, **kwinputs)
+  144.13 ms
+  1 measurement, 10 runs , 64 threads
+16384
+config:
+ BSLongformerSparsityConfig
+'(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /hf-internal-testing/llama-tokenizer/resolve/main/tokenizer_config.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x154ade7aa050>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: b132a749-cb9b-40d2-a8ab-709eaab7b6f3)')' thrown while requesting HEAD https://huggingface.co/hf-internal-testing/llama-tokenizer/resolve/main/tokenizer_config.json
+GPTLMHeadModel(
+  (transformer): GPTModel(
+    (embeddings): GPT2Embeddings(
+      (word_embeddings): Embedding(32000, 768)
+    )
+    (layers): ModuleList(
+      (0-11): 12 x Block(
+        (mixer): FlashBlocksparseMHA(
+          (Wqkv): Linear(in_features=768, out_features=2304, bias=True)
+          (inner_attn): FlashBlocksparseAttention()
+          (out_proj): Linear(in_features=768, out_features=768, bias=True)
+        )
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (drop_path1): StochasticDepth(p=0.0, mode=row)
+        (norm1): RMSNorm()
+        (mlp): GatedMlp(
+          (fc1): Linear(in_features=768, out_features=4096, bias=False)
+          (fc2): Linear(in_features=2048, out_features=768, bias=False)
+        )
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path2): StochasticDepth(p=0.0, mode=row)
+        (norm2): RMSNorm()
+      )
+    )
+    (drop_f): Dropout(p=0.0, inplace=False)
+    (ln_f): RMSNorm()
+  )
+  (lm_head): Linear(in_features=768, out_features=32000, bias=False)
+)
+Number of parameters: 134142720
+Llama Generate - Forward pass
+Prompt processing + decoding time: 1173ms
+Prompt processing + decoding time: 293ms
+Prompt processing + decoding time: 291ms
+Prompt processing + decoding time: 291ms
+Prompt processing + decoding time: 290ms
+Prompt processing + decoding time: 290ms
+Prompt processing + decoding time: 394ms
+Prompt processing + decoding time: 285ms
+Prompt processing + decoding time: 289ms
+Prompt processing + decoding time: 290ms
+Prompt processing + decoding time: 295ms
+Prompt processing + decoding time: 287ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x154ade824490>
+fn(*inputs, **kwinputs)
+  300.50 ms
+  1 measurement, 10 runs , 64 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x154ade824490>
+fn(*inputs, **kwinputs)
+  300.50 ms
+  1 measurement, 10 runs , 64 threads
+32768
+config:
+ BSLongformerSparsityConfig
+'(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /hf-internal-testing/llama-tokenizer/resolve/main/tokenizer_config.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x154afc44cf10>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: a72fdd73-5b65-448f-903a-23e151241d4f)')' thrown while requesting HEAD https://huggingface.co/hf-internal-testing/llama-tokenizer/resolve/main/tokenizer_config.json
+GPTLMHeadModel(
+  (transformer): GPTModel(
+    (embeddings): GPT2Embeddings(
+      (word_embeddings): Embedding(32000, 768)
+    )
+    (layers): ModuleList(
+      (0-11): 12 x Block(
+        (mixer): FlashBlocksparseMHA(
+          (Wqkv): Linear(in_features=768, out_features=2304, bias=True)
+          (inner_attn): FlashBlocksparseAttention()
+          (out_proj): Linear(in_features=768, out_features=768, bias=True)
+        )
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (drop_path1): StochasticDepth(p=0.0, mode=row)
+        (norm1): RMSNorm()
+        (mlp): GatedMlp(
+          (fc1): Linear(in_features=768, out_features=4096, bias=False)
+          (fc2): Linear(in_features=2048, out_features=768, bias=False)
+        )
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path2): StochasticDepth(p=0.0, mode=row)
+        (norm2): RMSNorm()
+      )
+    )
+    (drop_f): Dropout(p=0.0, inplace=False)
+    (ln_f): RMSNorm()
+  )
+  (lm_head): Linear(in_features=768, out_features=32000, bias=False)
+)
+Number of parameters: 134142720
+Llama Generate - Forward pass
+Prompt processing + decoding time: 1234ms
+Prompt processing + decoding time: 583ms
+Prompt processing + decoding time: 729ms
+Prompt processing + decoding time: 581ms
+Prompt processing + decoding time: 579ms
+Prompt processing + decoding time: 663ms
+Prompt processing + decoding time: 577ms
+Prompt processing + decoding time: 581ms
+Prompt processing + decoding time: 763ms
+Prompt processing + decoding time: 579ms
+Prompt processing + decoding time: 581ms
+Prompt processing + decoding time: 656ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x154ade826cb0>
+fn(*inputs, **kwinputs)
+  629.22 ms
+  1 measurement, 10 runs , 64 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x154ade826cb0>
+fn(*inputs, **kwinputs)
+  629.22 ms
+  1 measurement, 10 runs , 64 threads
+65536
+config:
+ BSLongformerSparsityConfig
+'(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /hf-internal-testing/llama-tokenizer/resolve/main/tokenizer_config.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x154ade7ab400>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 730cec4f-3a20-480e-91e8-9155a8c21628)')' thrown while requesting HEAD https://huggingface.co/hf-internal-testing/llama-tokenizer/resolve/main/tokenizer_config.json
+GPTLMHeadModel(
+  (transformer): GPTModel(
+    (embeddings): GPT2Embeddings(
+      (word_embeddings): Embedding(32000, 768)
+    )
+    (layers): ModuleList(
+      (0-11): 12 x Block(
+        (mixer): FlashBlocksparseMHA(
+          (Wqkv): Linear(in_features=768, out_features=2304, bias=True)
+          (inner_attn): FlashBlocksparseAttention()
+          (out_proj): Linear(in_features=768, out_features=768, bias=True)
+        )
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (drop_path1): StochasticDepth(p=0.0, mode=row)
+        (norm1): RMSNorm()
+        (mlp): GatedMlp(
+          (fc1): Linear(in_features=768, out_features=4096, bias=False)
+          (fc2): Linear(in_features=2048, out_features=768, bias=False)
+        )
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path2): StochasticDepth(p=0.0, mode=row)
+        (norm2): RMSNorm()
+      )
+    )
+    (drop_f): Dropout(p=0.0, inplace=False)
+    (ln_f): RMSNorm()
+  )
+  (lm_head): Linear(in_features=768, out_features=32000, bias=False)
+)
+Number of parameters: 134142720
+Llama Generate - Forward pass
+Prompt processing + decoding time: 1593ms
+Prompt processing + decoding time: 1293ms
+Prompt processing + decoding time: 1267ms
+Prompt processing + decoding time: 1163ms
+Prompt processing + decoding time: 1244ms
+Prompt processing + decoding time: 1262ms
+Prompt processing + decoding time: 1158ms
+Prompt processing + decoding time: 1178ms
+Prompt processing + decoding time: 1159ms
+Prompt processing + decoding time: 1200ms
+Prompt processing + decoding time: 1326ms
+Prompt processing + decoding time: 1158ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x154ade827040>
+fn(*inputs, **kwinputs)
+  1.21 s
+  1 measurement, 10 runs , 64 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x154ade827040>
+fn(*inputs, **kwinputs)
+  1.21 s
+  1 measurement, 10 runs , 64 threads
+131072
+config:
+ BSLongformerSparsityConfig
+'(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /hf-internal-testing/llama-tokenizer/resolve/main/tokenizer_config.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x154afc44cd90>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 38a500c1-aea2-4061-9696-b67e3547c723)')' thrown while requesting HEAD https://huggingface.co/hf-internal-testing/llama-tokenizer/resolve/main/tokenizer_config.json
+GPTLMHeadModel(
+  (transformer): GPTModel(
+    (embeddings): GPT2Embeddings(
+      (word_embeddings): Embedding(32000, 768)
+    )
+    (layers): ModuleList(
+      (0-11): 12 x Block(
+        (mixer): FlashBlocksparseMHA(
+          (Wqkv): Linear(in_features=768, out_features=2304, bias=True)
+          (inner_attn): FlashBlocksparseAttention()
+          (out_proj): Linear(in_features=768, out_features=768, bias=True)
+        )
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (drop_path1): StochasticDepth(p=0.0, mode=row)
+        (norm1): RMSNorm()
+        (mlp): GatedMlp(
+          (fc1): Linear(in_features=768, out_features=4096, bias=False)
+          (fc2): Linear(in_features=2048, out_features=768, bias=False)
+        )
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path2): StochasticDepth(p=0.0, mode=row)
+        (norm2): RMSNorm()
+      )
+    )
+    (drop_f): Dropout(p=0.0, inplace=False)
+    (ln_f): RMSNorm()
+  )
+  (lm_head): Linear(in_features=768, out_features=32000, bias=False)
+)
+Number of parameters: 134142720
+Llama Generate - Forward pass
+Prompt processing + decoding time: 2516ms
+Prompt processing + decoding time: 2430ms
+Prompt processing + decoding time: 2405ms
+Prompt processing + decoding time: 2417ms
+Prompt processing + decoding time: 2565ms
+Prompt processing + decoding time: 2441ms
+Prompt processing + decoding time: 2442ms
+Prompt processing + decoding time: 2414ms
+Prompt processing + decoding time: 2400ms
+Prompt processing + decoding time: 2473ms
+Prompt processing + decoding time: 2400ms
+Prompt processing + decoding time: 2428ms
+<torch.utils.benchmark.utils.common.Measurement object at 0x154ade826d10>
+fn(*inputs, **kwinputs)
+  2.44 s
+  1 measurement, 10 runs , 64 threads
+<torch.utils.benchmark.utils.common.Measurement object at 0x154ade826d10>
+fn(*inputs, **kwinputs)
+  2.44 s
+  1 measurement, 10 runs , 64 threads
